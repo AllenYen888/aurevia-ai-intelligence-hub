@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-10",
+  "search_cutoff": "2026-11-10T07:05:14+08:00",
+  "status": "no_verified_x_items",
+  "items": [],
+  "new_items": 0,
+  "updated_items": 0,
+  "history_scope": "已讀INDEX及當日文章；索引僅1篇流程驗證文章，未能完整驗證30天歷史",
+  "reason": "已搜尋最近48小時及延伸7天的X工具工作流程內容，但未取得可開啟查核的原始貼文；不以搜尋摘要或官方部落格冒充X原文。",
+  "publication": {
+    "status": "SKIPPED_INSUFFICIENT_VERIFIED_SOURCES",
+    "created_post": false,
+    "existing_test": {
+      "metricool_id": 422440546,
+      "status": "PUBLISHED",
+      "url": "https://facebook.com/allenyen888/posts/1136570842454220"
+    }
+  },
+  "candidate": {
+    "title": "Rebuilding the global town square from scratch",
+    "date": "2026-11-04",
+    "url": "https://blog.x.com/en/engineering/rebuilding-the-global-town-square-from-scratch",
+    "status": "搜尋取得官方部落格候選；非已查核X原始貼文，未收錄精選"
+  }
+}
