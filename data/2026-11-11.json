@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-11",
+  "search_cutoff": "2026-11-11T07:03:38+08:00",
+  "status": "no_verified_x_items",
+  "items": [],
+  "new_items": 0,
+  "updated_items": 0,
+  "history_scope": "已讀INDEX與當日文章；索引兩篇，未完整核對30天全部歷史",
+  "reason": "兩種搜尋來源皆未取得可核對作者、發文時間與實作內容的近期X原始貼文。",
+  "existing_article": "daily/2026/11/2026-11-11.md",
+  "official_cross_check": {
+    "url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot/",
+    "date": "2026-11-09",
+    "status": "已開啟官方公告；非X原始貼文，未親自實測"
+  },
+  "publication": {
+    "created_post": false,
+    "reason": "來源不足且當日已有其他任務排程，避免重複",
+    "observed_existing": {
+      "id": 423797378,
+      "uuid": "6789099018119040746",
+      "status": "PENDING",
+      "scheduled_for": "2026-11-11T07:20:00+08:00",
+      "public_url": null
+    }
+  }
+}
