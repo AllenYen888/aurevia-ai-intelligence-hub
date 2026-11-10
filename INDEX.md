@@ -11,3 +11,7 @@
 先提交文章，回讀核對，再更新本索引。以原始網址、工具與 owner/repo 去重。費用與授權未確認時標示。FB 發布成功才記錄真實貼文連結。
 
 [分類索引](categories/README.md) · [每日模板](templates/daily.md) · [首頁](README.md)
+
+## 系統驗證紀錄
+
+- 2026-11-10：[GitHub 新增檔案與回讀測試](tests/2026-11-10-github-write-read.md) — 測試識別碼 `AUREVIA-GH-QA-20261110-01`；不計入每日情報文章數。
