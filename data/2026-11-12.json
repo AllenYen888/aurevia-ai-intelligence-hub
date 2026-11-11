@@ -55,6 +55,20 @@
     "reason": "沒有足夠可驗證的新情報，不產出或發布誤導貼文",
     "metricool_id": null,
     "uuid": null,
-    "public_url": null
+    "public_url": null,
+    "scope": "本次X情報任務",
+    "observed_existing": {
+      "id": 425055798,
+      "uuid": "-9053967812401084013",
+      "status": "PENDING",
+      "scheduled_for": "2026-11-12T07:20:00+08:00",
+      "public_url": null,
+      "created_by_this_run": false
+    }
+  },
+  "existing_article": "daily/2026/11/2026-11-12.md",
+  "article_write": {
+    "status": "not_written",
+    "reason": "建立時發現另一任務已建立當日文章，保留既有內容"
   }
 }
