@@ -1,0 +1,60 @@
+{
+  "id": "aurevia-x-research-20261112",
+  "date": "2026-11-12",
+  "timezone": "Asia/Taipei",
+  "search_cutoff": "2026-11-12T06:58:27+08:00",
+  "search_window": {
+    "preferred_hours": 48,
+    "extended_days": 7
+  },
+  "status": "no_verified_x_items",
+  "items": [],
+  "new_items": 0,
+  "updated_items": 0,
+  "history": {
+    "read": [
+      "INDEX.md",
+      "daily/2026/11/2026-11-10.md",
+      "daily/2026/11/2026-11-11.md",
+      "data/2026-11-11.json"
+    ],
+    "complete_30_days": false,
+    "limitation": "已讀可取得索引及兩篇列載文章；未能證實索引涵蓋全部30天歷史"
+  },
+  "research": {
+    "methods": [
+      "近期關鍵字搜尋",
+      "指定創作者搜尋",
+      "直接開啟X個人頁面"
+    ],
+    "opened_profiles": [
+      {
+        "url": "https://x.com/n8n_io",
+        "result": "403 Forbidden"
+      },
+      {
+        "url": "https://x.com/coleam00",
+        "result": "DisabledError"
+      },
+      {
+        "url": "https://x.com/dabit3",
+        "result": "403 Forbidden"
+      }
+    ],
+    "browser_result": "連接工具回報Unknown tool，未取得瀏覽器內容",
+    "reason": "搜尋結果未取得可核對作者、發文時間及實作內容的近期X原始貼文；不以官方說明頁充當原始貼文。",
+    "personally_tested": false
+  },
+  "publication": {
+    "brand_id": "7530741",
+    "page_id": "105618068881145",
+    "destination_verified": true,
+    "existing_daily_posts_at_check": 0,
+    "created_post": false,
+    "status": "SKIPPED",
+    "reason": "沒有足夠可驗證的新情報，不產出或發布誤導貼文",
+    "metricool_id": null,
+    "uuid": null,
+    "public_url": null
+  }
+}
