@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-13",
+  "article_path": "daily/2026/11/2026-11-13.md",
+  "created_by_this_run": false,
+  "status": "SKIPPED_DUPLICATE",
+  "brand_id": "7530741",
+  "page_id": "105618068881145",
+  "destination_verified": true,
+  "observed_existing": {
+    "id": 426328960,
+    "uuid": "7034593473195885195",
+    "status": "PENDING",
+    "publication_date": "2026-11-13T07:20:00+08:00",
+    "public_url": null,
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7530741&openWithPostUuid=7034593473195885195"
+  },
+  "reason": "本日已有其他任務排程；本次只交付草稿及追加來源，不重複發布"
+}
