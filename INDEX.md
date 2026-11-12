@@ -20,3 +20,16 @@
 - 2026-11-10：[GitHub 新增檔案與回讀測試](tests/2026-11-10-github-write-read.md) — 測試識別碼 `AUREVIA-GH-QA-20261110-01`；不計入每日情報文章數。
 
 - 2026-11-12：[X 情報查核紀錄](data/2026-11-12.json) — 合格新增0項、更新0項；未取得近期X原始貼文，本任務未發布。另有任務已排程貼文，狀態以[發布查核紀錄](publication/2026-11-12.json)為準。
+
+
+## 2026-11-13 應用條目補充
+
+新增3項、更新0項（不另增加每日文章篇數）。以下為官方／作者來源佐證；X原文皆未能直接讀取，未親自實測。30天全量去重未確認。
+
+| 工具 | 分類 | 資源 |
+|---|---|---|
+| Claude SEO | 研究／網站SEO | [作者專案](https://github.com/AgriciDaniel/claude-seo) |
+| Runpod for Agents | Agent／GPU自動化 | [官方專案](https://github.com/runpod/runpod-plugins-official) |
+| MOSS-Image Tile Control | 圖像／ComfyUI | [開發者模型卡](https://huggingface.co/Xabsurd/MOSS-Image-Tile-Control) |
+
+[完整步驟與FB草稿](daily/2026/11/2026-11-13.md) · [結構化資料](data/2026-11-13.json) · [發布查核](publication/2026-11-13.json)
