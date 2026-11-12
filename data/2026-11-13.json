@@ -1,0 +1,157 @@
+{
+  "id": "aurevia-ai-intelligence-20261113",
+  "date": "2026-11-13",
+  "timezone": "Asia/Taipei",
+  "search_cutoff": "2026-11-13T07:05:22+08:00",
+  "items": [
+    {
+      "id": "claude-seo-agricidaniel",
+      "title": "先找出品牌網站該修哪裡",
+      "tool": "Claude SEO",
+      "category": "研究／網站內容／SEO",
+      "problem": "網站內容與技術問題缺乏整理順序",
+      "summary": "作者維護的專案提供技術、內容、結構化資料與在地SEO稽核，輸出修正清單；不代表排名或詢問量保證。",
+      "steps": [
+        "依作者儲存庫安裝Claude Code外掛並檢查需求",
+        "以 /seo page <自有網站URL> 分析一頁",
+        "人工核對建議，先修正一項再記錄前後差異"
+      ],
+      "audience": "有網站的美容工作室、中小企業、行銷顧問",
+      "example": "檢查美容課程頁是否清楚交代授課內容、地點及報名方式（應用建議，未實測）",
+      "cost": "外掛免費；Claude Code方案或模型使用費另計，確切額度未確認",
+      "limitations": "報告須人工查證；不要輸入顧客資料或後台憑證，也不把在本機執行等同模型完全離線",
+      "x": {
+        "author": "THANI",
+        "handle": "@HeyThani",
+        "url": "https://x.com/HeyThani/status/2120389867355967794",
+        "published_date": "2026-11-11",
+        "date_basis": "第三方索引日期與貼文ID時間推算一致；原文未能直接讀取",
+        "access": "403 Forbidden，未驗證原文內容"
+      },
+      "official": [
+        "https://github.com/AgriciDaniel/claude-seo",
+        "https://agricidaniel.com/"
+      ],
+      "github": "https://github.com/AgriciDaniel/claude-seo",
+      "license": "MIT（儲存庫標示；部分附加內容可能另有條款）",
+      "verification": "X候選不可讀；作者儲存庫已開啟核對功能；未親自安裝或實測",
+      "source_note": "索引的25/18數量與目前README26/19不同，本摘要不沿用舊數字",
+      "collected_date": "2026-11-13",
+      "tags": [
+        "SEO",
+        "在地行銷",
+        "品牌網站"
+      ],
+      "dedup": "可取得索引四篇未列此工具；未完成30天全量歷史驗證"
+    },
+    {
+      "id": "runpod-agents",
+      "title": "用Agent協助管理雲端GPU",
+      "tool": "Runpod for Agents",
+      "category": "Agent／自動化／運算資源",
+      "problem": "部署GPU時反覆查文件及手動設定",
+      "summary": "官方文件確認，可將技能與MCP接入編碼Agent，查詢及管理Pods、端點和儲存資源。先查資源，再決定是否啟動付費運算。",
+      "steps": [
+        "閱讀官方agent-setup文件，選擇支援的客戶端",
+        "完成授權後先要求列出現有端點，確認連線",
+        "確認GPU、預估費用與停止方式後才部署小型測試"
+      ],
+      "audience": "協助中小企業的技術人員、AI影片及模型部署教學者",
+      "example": "規劃短時間ComfyUI教學環境，課後確認運算已停止（應用建議，未部署）",
+      "cost": "GPU與儲存等雲端資源會計費；當前單價與免費額度未確認",
+      "limitations": "Agent可啟動計費資源；保留部署和刪除審核，確認停止運算不等於刪除或停止所有儲存費",
+      "x": {
+        "author": "ふきゅう",
+        "handle": "@Khaled865412521",
+        "url": "https://x.com/Khaled865412521/status/2120286214972412076",
+        "published_date": "2026-11-11（Asia/Taipei，依ID推算）",
+        "date_basis": "第三方標11月10日，貼文ID換台灣時區為11月11日06:43；未能由X頁面確認，採7天擴展",
+        "access": "403 Forbidden，未驗證原文內容"
+      },
+      "official": [
+        "https://www.runpod.io/blog/whats-new-runpod-agents-november-2026",
+        "https://docs.runpod.io/agent-setup.md"
+      ],
+      "github": "https://github.com/runpod/runpod-plugins-official",
+      "license": "Apache-2.0（外掛儲存庫；雲端服務另依服務條款）",
+      "verification": "X候選不可讀；官方公告及官方連結的儲存庫已核對；未實測",
+      "collected_date": "2026-11-13",
+      "tags": [
+        "Agent",
+        "GPU",
+        "MCP"
+      ],
+      "dedup": "可取得索引四篇未列此工具；未完成30天全量歷史驗證"
+    },
+    {
+      "id": "moss-image-tile-control",
+      "title": "為模糊素材重新生成影像細節",
+      "tool": "MOSS-Image Tile Control",
+      "category": "圖像／ComfyUI",
+      "problem": "放大圖片後缺乏自然細節",
+      "summary": "開發者模型卡提供beta2與beta3路徑，以參考圖維持構圖並重新生成細節；不是還原真實失去的資訊。",
+      "steps": [
+        "從開發者Hugging Face下載工作流程與對應模型",
+        "beta3使用隨附自訂節點，選擇相容SFT模型與自有測試圖",
+        "固定seed，以strength 0、0.5、1比較輪廓與細節，保留原圖"
+      ],
+      "audience": "熟悉ComfyUI的設計師、影像教學者",
+      "example": "用授權的示意場景練習細節生成；不作保養前後對照或功效證據",
+      "cost": "可下載；運算成本另計，免費雲端額度未確認",
+      "limitations": "可能改變膚色、細紋、髮絲及文字；不可視為真實皮膚紀錄，需檢查素材授權及輸出",
+      "x": {
+        "author": "索引標示Xabsurd",
+        "handle": "@X__ABSURD",
+        "url": "https://x.com/X__ABSURD/status/2120755279767998867",
+        "published_date": "2026-11-12",
+        "date_basis": "索引日期與ID推算一致；X與Hugging Face帳號對應未完全獨立確認",
+        "access": "403 Forbidden，未驗證原文內容"
+      },
+      "official": [
+        "https://huggingface.co/Xabsurd/MOSS-Image-Tile-Control"
+      ],
+      "github": "無（未找到此adapter作者的GitHub專案；不以ComfyUI主庫代替）",
+      "license": "adapter授權未確認；模型卡僅明示基底模型Apache-2.0，不能推及adapter",
+      "verification": "X候選不可讀；開發者模型卡與工作流程說明已核對；未實測",
+      "collected_date": "2026-11-13",
+      "tags": [
+        "圖像",
+        "ComfyUI",
+        "細節生成"
+      ],
+      "dedup": "可取得索引四篇未列此工具；未完成30天全量歷史驗證"
+    }
+  ],
+  "new_items": 3,
+  "updated_items": 0,
+  "classification": "官方／作者來源可佐證的應用條目；非X原文已讀",
+  "x_originals_read": 0,
+  "history": {
+    "read_dates": [
+      "2026-11-10",
+      "2026-11-11",
+      "2026-11-12",
+      "2026-11-13"
+    ],
+    "index_read": true,
+    "repository_search_results": 0,
+    "complete_30_days": false
+  },
+  "fb_draft": "【別急著追新工具，先讓AI替你找出網站該修哪裡】\n\n美容工作室有網站，卻不知道介紹頁是否清楚、搜尋引擎能否理解？今天的「Aurevia AI 工具應用情報庫」整理三個實作方向，先從最容易驗收的一項開始。\n\n① Claude SEO：作者提供的Claude Code外掛，可協助檢查網站技術、內容與在地SEO。先用自己的公開課程頁執行 /seo page <網址>，請它列出問題；人工核對後，只挑一項修改，再保存修改前後紀錄。工具不保證排名、流量或成交。\n\n② Runpod for Agents：適合有技術支援的團隊，讓Agent查詢及管理雲端GPU。先測試「列出現有端點」，確認資源與計費方式，再考慮部署；課後也要檢查運算與儲存狀態。\n\n③ MOSS-Image Tile Control：適合熟悉ComfyUI的人，以參考圖重新生成細節。請用授權素材練習，不能把生成的皮膚細節當成真實改善或保養效果。\n\n今天建議先試第一項：選一頁、修一點、留下可比對的紀錄，比一次改完全部更容易驗收。外掛費用與模型、雲端運算費是不同項目，使用前要分別確認。\n\n查核說明：三則X候選貼文原頁皆無法讀取；上述功能已改查作者儲存庫、官方公告或模型卡，未親自實測，也不宣稱已核實X示範結果。\n\n資源：\nhttps://github.com/AgriciDaniel/claude-seo\nhttps://github.com/runpod/runpod-plugins-official\nhttps://huggingface.co/Xabsurd/MOSS-Image-Tile-Control\n\n完整資料與X來源：\nhttps://github.com/AllenYen888/aurevia-ai-intelligence-hub/blob/main/daily/2026/11/2026-11-13.md\n\nAurevia 奧瑞維亞AI價值商學院\n#AI工具應用 #美業AI #品牌網站",
+  "publication": {
+    "created_by_this_run": false,
+    "status": "SKIPPED_DUPLICATE",
+    "brand_id": "7530741",
+    "page_id": "105618068881145",
+    "destination_verified": true,
+    "observed_existing": {
+      "id": 426328960,
+      "uuid": "7034593473195885195",
+      "status": "PENDING",
+      "publication_date": "2026-11-13T07:20:00+08:00",
+      "public_url": null,
+      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7530741&openWithPostUuid=7034593473195885195"
+    },
+    "reason": "本日已有其他任務排程；本次只交付草稿及追加來源，不重複發布"
+  }
+}
