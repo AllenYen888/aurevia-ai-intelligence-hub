@@ -1,9 +1,10 @@
 # 情報總索引
 
-目前實際情報數：4 篇（流程驗證文章；非 X 最新情報）。
+目前每日文章數：5 篇（含官方／作者來源佐證條目；不可視為皆已讀 X 原文）。
 
 | 日期 | 文章 | 主分類 | 工具 | 來源 | 驗證狀態 |
 |---|---|---|---|---|
+| 2026-11-14 | [Phosphene：本機AI影片小測試](daily/2026/11/2026-11-14.md) | video | Phosphene | [作者版本公告](https://github.com/mrbizarro/Phosphene/releases/tag/v5.0.20) | 作者來源已查核；X不可讀；未實測 |
 | 2026-11-13 | [GitHub Actions 日誌掃描外洩金鑰：AI 自動化安全實戰](daily/2026/11/2026-11-13.md) | agents | GitHub Actions / Secret Scanning | [GitHub 官方公告](https://github.blog/changelog/2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs/) | 官方公告已查核；未企業實測 |
 | 2026-11-12 | [一人公司用 GitHub Issue 類型與欄位管理 AI 專案](daily/2026/11/2026-11-12.md) | business | GitHub Issues / Projects | [GitHub 官方公告](https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts/) | 官方公告已查核；未親自操作實測 |
 | 2026-11-11 | [GitHub Copilot 新增 Claude Fable 5.2：多步驟專案](daily/2026/11/2026-11-11.md) | coding | GitHub Copilot / Claude Fable 5.2 | [GitHub 官方公告](https://github.blog/changelog/2026-11-09-claude-fable-5-5-in-github-copilot/) | 官方公告已查核；未親自實測 |
