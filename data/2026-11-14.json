@@ -57,6 +57,19 @@
   "fb_draft": "【你的Mac，能不能先做一支5秒AI短片？】\n\n經營美容工作室或教AI，不一定每次都要從長影片開始。今天分享Phosphene：作者提供的Apple Silicon Mac本機創作工具，可以從圖片或文字製作影片。11月13日的5.0.20版本公告，加入小記憶體Mac的改善及模型外接儲存功能；目前專案已有較新版本，安裝時請依作者頁面確認。\n\n建議這樣試：①先確認Mac晶片、至少16GB記憶體與磁碟空間；②從作者GitHub進入下載頁，閱讀所選模型的授權；③拿一張自己拍攝的茶席、店景或商品情境照，先做低解析度5秒測試，檢查動作、聲音與主體是否合理，再挑值得保留的畫面。\n\n這是一個應用建議，今天沒有安裝或生成實測；也不保證每台Mac都有相同速度。基本功能標示免費，另有Pro。程式採MIT授權，但模型各有條款，不能直接推論所有輸出都可商用。匿名使用統計預設開啟，可在設定關閉。\n\n本次X線索原頁無法讀取，已改查作者儲存庫與版本公告，不將搜尋摘要當成實測證據。先完成一支可檢查的小片段，再決定要不要投入更多時間。\n\n作者專案：https://github.com/mrbizarro/Phosphene\nX線索：https://x.com/cutetoxicguy/status/2120856639368499575\n完整紀錄：https://github.com/AllenYen888/aurevia-ai-intelligence-hub/blob/main/daily/2026/11/2026-11-14.md\n\nAurevia 奧瑞維亞AI價值商學院\n#AI工具應用 #美業AI #本機影片",
   "classification": "作者來源佐證，X原文不可讀",
   "publication": {
-    "status": "NOT_SUBMITTED"
+    "date": "2026-11-14",
+    "article_path": "daily/2026/11/2026-11-14.md",
+    "brand_id": "7530741",
+    "page_id": "105618068881145",
+    "id": 427562749,
+    "uuid": "-1675276593639109024",
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7530741&openWithPostUuid=-1675276593639109024",
+    "publication_date": {
+      "dateTime": "2026-11-14T07:01:00",
+      "timezone": "Asia/Taipei"
+    },
+    "status": "PENDING",
+    "public_url": null,
+    "created_by_this_run": true
   }
 }
