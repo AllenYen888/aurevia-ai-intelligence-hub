@@ -35,3 +35,16 @@
 | MOSS-Image Tile Control | 圖像／ComfyUI | [開發者模型卡](https://huggingface.co/Xabsurd/MOSS-Image-Tile-Control) |
 
 [完整步驟與FB草稿](daily/2026/11/2026-11-13.md) · [結構化資料](data/2026-11-13.json) · [發布查核](publication/2026-11-13.json)
+
+
+## 2026-11-15 應用條目補充
+
+新增3項、更新0項（不另增加每日文章篇數）；官方文件／作者專案已查核，X原文均403，未實測。已讀可取得6篇歷史文章，未確認30天全量。
+
+| 工具 | 分類 | 資源 |
+|---|---|---|
+| DeepSeek API／Chat Demo | 研究／文件 | [官方專案](https://github.com/deepseek-ai/chat-demo) |
+| llama.cpp v1.0.0 libraries | 開源／本機AI | [官方專案](https://github.com/ggml-org/llama.cpp) |
+| Sitecore Developer MCP beta | Agent／網站 | [官方文件](https://doc.sitecore.com/sai/en/developers/sitecoreai/sitecore-developer-mcp-server.html) |
+
+[完整步驟與FB草稿](daily/2026/11/2026-11-15.md) · [JSON](data/2026-11-15.json) · [發布紀錄](publication/2026-11-15.json)
