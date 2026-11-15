@@ -1,0 +1,148 @@
+{
+  "date": "2026-11-16",
+  "timezone": "Asia/Taipei",
+  "search_cutoff": "2026-11-16T07:01:15+08:00",
+  "history": {
+    "available_dates": [
+      "2026-11-10",
+      "2026-11-11",
+      "2026-11-12",
+      "2026-11-13",
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "full_30_days_verified": false,
+    "dedup_keys": [
+      "x.url",
+      "github owner/repo",
+      "tool"
+    ],
+    "today_existing_article_preserved": true
+  },
+  "counts": {
+    "new": 2,
+    "updated": 1
+  },
+  "items": [
+    {
+      "collected_date": "2026-11-16",
+      "verification": "已嘗試開啟X原始網址，403，未讀原文；已讀作者文件；未安裝或實測",
+      "date_note": "X日期由來源索引提供，未由原頁核對；延伸最近7天",
+      "id": "dughogan-dugco-tools",
+      "change": "new",
+      "title": "為AI短片加入可比較的後製與交付步驟",
+      "tool": "DUGCO Tools",
+      "category": "影片／ComfyUI／後製",
+      "problem": "AI素材生成後缺乏一致的後製與交付流程",
+      "summary": "作者提供Film Finish及25fps交付工作流程。建議先比較原片與後製片，不將濾鏡當作品質保證。",
+      "steps": [
+        "依作者README將工具安裝至ComfyUI並執行安裝檢查",
+        "載入自己的短片與Film Finish範例，保存原片及後製版本",
+        "並排檢查色彩、細節與閃爍；有25fps需求才另讀交付指南"
+      ],
+      "audience": "熟悉ComfyUI的美業設計師、影片後製與教學人員",
+      "example": "比較店景氣氛短片的原色與電影感版本（應用建議）",
+      "cost": "程式MIT、可取得；運算另計，部分外接服務需點數，免費額度未確認",
+      "limitations": "工具包MIT不涵蓋所有相依模型；CoTracker3支線為非商用授權。工作流程稽核不能取代人工授權判斷；不要放入未授權客人影像。",
+      "x": {
+        "author": "索引標示Doug Hogan",
+        "handle": "@heydoughogan",
+        "url": "https://x.com/heydoughogan/status/2121603014049845570",
+        "published_date": "2026-11-14",
+        "access": "403 Forbidden"
+      },
+      "official": [
+        "https://github.com/dughogan/DUGCO_Tools"
+      ],
+      "github": "https://github.com/dughogan/DUGCO_Tools",
+      "license": "工具包MIT；外部模型與付費節點另依條款",
+      "tags": [
+        "影片後製",
+        "ComfyUI",
+        "授權"
+      ]
+    },
+    {
+      "collected_date": "2026-11-16",
+      "verification": "已嘗試開啟X原始網址，403，未讀原文；已讀作者文件；未安裝或實測",
+      "date_note": "X日期由來源索引提供，未由原頁核對；延伸最近7天",
+      "id": "ersinkoc-ai-video-factory",
+      "change": "new",
+      "title": "把教學主題拆成腳本、分鏡與審查",
+      "tool": "AI Video Factory",
+      "category": "影片／Agent／教學",
+      "problem": "教學影片製作步驟散落且成本難追蹤",
+      "summary": "作者專案以Agent規劃腳本與畫面，由Studio保留人工確認關卡；可先跑無付費媒體呼叫的範例，正式生成仍有模型費用。",
+      "steps": [
+        "依README確認Node、pnpm、FFmpeg及Claude需求",
+        "先跑 pnpm ys doctor 與 pnpm ys render-demo，依預覽關卡確認",
+        "以一個非醫療教學主題建立episode，先審腳本再選媒體供應商及預算"
+      ],
+      "audience": "有技術協助的AI講師、內容團隊",
+      "example": "規劃一支解說如何檢查AI引用來源的教學影片（未製作）",
+      "cost": "程式MIT；Claude及聲音、圖像、影片服務費另計，確切額度未確認",
+      "limitations": "媒體預算上限不包含Claude用量；本機Studio無登入保護，不對公網開放。不要上傳學員個資；生成素材仍須逐項檢查授權與正確性。",
+      "x": {
+        "author": "索引標示Ersin Koç",
+        "handle": "@ersinkoc",
+        "url": "https://x.com/ersinkoc/status/2121193367417594329",
+        "published_date": "2026-11-13",
+        "access": "403 Forbidden"
+      },
+      "official": [
+        "https://github.com/ersinkoc/AI-Video-Factory",
+        "https://github.com/ersinkoc/AI-Video-Factory/releases/tag/v0.6.0"
+      ],
+      "github": "https://github.com/ersinkoc/AI-Video-Factory",
+      "license": "專案MIT；Remotion、供應商及素材各依條款",
+      "tags": [
+        "教學影片",
+        "Agent",
+        "成本管理"
+      ]
+    },
+    {
+      "collected_date": "2026-11-16",
+      "verification": "已嘗試開啟X原始網址，403，未讀原文；已讀作者文件；未安裝或實測",
+      "date_note": "X日期由來源索引提供，未由原頁核對；延伸最近7天",
+      "id": "yijunwang2-moss-anypaint",
+      "change": "update",
+      "parent_tool": "MOSS-Image",
+      "title": "MOSS新應用：遮罩內修改與擴圖",
+      "tool": "MOSS AnyPaint",
+      "category": "圖像／ComfyUI／局部編修",
+      "problem": "需要改局部畫面或延展畫布，而非重新生成整張",
+      "summary": "社群作者提供MOSS-Image-Base的任意遮罩編修與擴圖。相對已收錄的Tile Control細節重生，這是不同adapter與新用途，不能混用工作流程。",
+      "steps": [
+        "從模型卡連入其明確連結的ComfyUI專案，核對模型需求",
+        "匯入作者workflow，載入自有圖片與遮罩；先保持padding為0做局部測試",
+        "檢查遮罩內外與物件數量，再嘗試單邊增加畫布"
+      ],
+      "audience": "熟悉模型與ComfyUI的設計師",
+      "example": "把自有店景延展成海報留白版，不生成療效前後對照（應用建議）",
+      "cost": "adapter與節點可取得；GPU、磁碟及運算成本另計，雲端免費額度未確認",
+      "limitations": "未遮罩像素仍可能略變，細遮罩及大面積生成有失真風險；不可承諾精確保留商品標籤。模型卡警告不能使用頁面自動產生的通用Diffusers載入範例。",
+      "x": {
+        "author": "索引標示帳號，姓名未確認",
+        "handle": "@Machinedelusion",
+        "url": "https://x.com/Machinedelusion/status/2121651120666021977",
+        "published_date": "2026-11-14",
+        "access": "403 Forbidden"
+      },
+      "official": [
+        "https://huggingface.co/yijunwang2/moss-anypaint",
+        "https://github.com/alexw5702-afk/moss-anypaint"
+      ],
+      "github": "https://github.com/alexw5702-afk/moss-anypaint",
+      "github_relationship": "模型卡直接連結的ComfyUI實作；是社群專案，不是OpenMOSS官方產品",
+      "license": "模型及runtime Apache-2.0；ComfyUI節點MIT；相依元件另依條款",
+      "tags": [
+        "MOSS-Image",
+        "遮罩編修",
+        "擴圖"
+      ]
+    }
+  ],
+  "facebook_draft": "【AI素材做出來了，接著怎麼檢查與交付？】\n\n今天整理三個創作流程工具，重點不是一次按完就上線，而是留下能比較、能檢查的步驟。以下均為作者文件查核，沒有親自安裝或實測。\n\n① DUGCO Tools：提供ComfyUI後製與交付範例。先拿自己的店景短片，比較原片和Film Finish版本，檢查顏色、細節與閃爍；只有交付規格真的要求25fps時，才另用對應流程。工具包MIT不代表所有相依模型都能商用。\n\n② AI Video Factory：把教學主題拆成腳本、分鏡、生成與審查。技術人員可先跑doctor和render-demo，再做正式內容。要留意：媒體API預算上限不包含Claude用量，本機Studio也不宜直接開放到公網。\n\n③ MOSS AnyPaint：以遮罩做局部修改或延展畫布，與先前分享的Tile Control細節生成用途不同。可用自有店景練習加出海報留白，但仍要檢查遮罩外是否變色、物件有沒有變形，商品文字更不能直接相信。\n\n今天最值得先做：已會ComfyUI的人，選同一段5秒素材，保存原版與後製版，逐格比較。還不熟悉環境的人，先看範例，不急著下載整套模型。\n\n三則X原頁皆無法讀取，功能已改查作者專案與模型卡；不採信未核實的展示成效，也不使用顧客私密影像。\n\nGitHub入口：\nhttps://github.com/dughogan/DUGCO_Tools\nhttps://github.com/ersinkoc/AI-Video-Factory\nhttps://github.com/alexw5702-afk/moss-anypaint\n\n完整步驟、授權提醒與X原始連結：\nhttps://github.com/AllenYen888/aurevia-ai-intelligence-hub/blob/main/daily/2026/11/2026-11-16.md\n\nAurevia 奧瑞維亞AI價值商學院\n#AI工具應用 #美業AI #影片後製",
+  "publication_status": "NOT_SUBMITTED"
+}
