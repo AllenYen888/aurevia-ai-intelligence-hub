@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-16",
+  "article_path": "daily/2026/11/2026-11-16.md",
+  "brand_id": "7530741",
+  "facebook_page_id": "105618068881145",
+  "this_run": {
+    "status": "SKIPPED_DUPLICATE_DAILY",
+    "reason": "Another task already scheduled one Facebook daily post; no new post submitted",
+    "draft_location": "data/2026-11-16.json#facebook_draft"
+  },
+  "observed_existing_post": {
+    "id": 429382520,
+    "uuid": "8753183165712911082",
+    "status": "PENDING",
+    "publication_datetime": "2026-11-16T07:20:00+08:00",
+    "plannerUrl": null,
+    "publicUrl": null,
+    "text_topic": "GitHub Copilot model deprecation",
+    "observed_at": "2026-11-16T07:04:00+08:00"
+  },
+  "github_readback": {
+    "article": true,
+    "json": true
+  }
+}
