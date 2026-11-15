@@ -144,5 +144,15 @@
     }
   ],
   "facebook_draft": "【AI素材做出來了，接著怎麼檢查與交付？】\n\n今天整理三個創作流程工具，重點不是一次按完就上線，而是留下能比較、能檢查的步驟。以下均為作者文件查核，沒有親自安裝或實測。\n\n① DUGCO Tools：提供ComfyUI後製與交付範例。先拿自己的店景短片，比較原片和Film Finish版本，檢查顏色、細節與閃爍；只有交付規格真的要求25fps時，才另用對應流程。工具包MIT不代表所有相依模型都能商用。\n\n② AI Video Factory：把教學主題拆成腳本、分鏡、生成與審查。技術人員可先跑doctor和render-demo，再做正式內容。要留意：媒體API預算上限不包含Claude用量，本機Studio也不宜直接開放到公網。\n\n③ MOSS AnyPaint：以遮罩做局部修改或延展畫布，與先前分享的Tile Control細節生成用途不同。可用自有店景練習加出海報留白，但仍要檢查遮罩外是否變色、物件有沒有變形，商品文字更不能直接相信。\n\n今天最值得先做：已會ComfyUI的人，選同一段5秒素材，保存原版與後製版，逐格比較。還不熟悉環境的人，先看範例，不急著下載整套模型。\n\n三則X原頁皆無法讀取，功能已改查作者專案與模型卡；不採信未核實的展示成效，也不使用顧客私密影像。\n\nGitHub入口：\nhttps://github.com/dughogan/DUGCO_Tools\nhttps://github.com/ersinkoc/AI-Video-Factory\nhttps://github.com/alexw5702-afk/moss-anypaint\n\n完整步驟、授權提醒與X原始連結：\nhttps://github.com/AllenYen888/aurevia-ai-intelligence-hub/blob/main/daily/2026/11/2026-11-16.md\n\nAurevia 奧瑞維亞AI價值商學院\n#AI工具應用 #美業AI #影片後製",
-  "publication_status": "NOT_SUBMITTED"
+  "publication_status": "SKIPPED_DUPLICATE_DAILY",
+  "observed_existing_post": {
+    "id": 429382520,
+    "uuid": "8753183165712911082",
+    "status": "PENDING",
+    "publication_datetime": "2026-11-16T07:20:00+08:00",
+    "plannerUrl": null,
+    "publicUrl": null,
+    "text_topic": "GitHub Copilot model deprecation",
+    "observed_at": "2026-11-16T07:04:00+08:00"
+  }
 }
