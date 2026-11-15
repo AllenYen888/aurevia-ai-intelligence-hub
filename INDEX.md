@@ -1,9 +1,10 @@
 # 情報總索引
 
-目前每日文章數：6 篇（含官方／作者來源佐證條目；不可視為皆已讀 X 原文）。
+目前每日文章數：7 篇（含官方／作者來源佐證條目；不可視為皆已讀 X 原文）。
 
 | 日期 | 文章 | 主分類 | 工具 | 來源 | 驗證狀態 |
 |---|---|---|---|---|
+| 2026-11-16 | [Copilot 六款模型12月14日退場：AI工作流遷移清單](daily/2026/11/2026-11-16.md) | automation | GitHub Copilot | [GitHub 官方公告](https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december/) | 官方公告已查核；未實測 |
 | 2026-11-15 | [Gemini 4 Hydrogen 登陸 GitHub Copilot：美容預約表單實戰](daily/2026/11/2026-11-15.md) | coding | GitHub Copilot / Gemini 4 Hydrogen | [GitHub 官方公告](https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot/) | 官方公告已查核；未實測 |
 | 2026-11-14 | [Phosphene：本機AI影片小測試](daily/2026/11/2026-11-14.md) | video | Phosphene | [作者版本公告](https://github.com/mrbizarro/Phosphene/releases/tag/v5.0.20) | 作者來源已查核；X不可讀；未實測 |
 | 2026-11-13 | [GitHub Actions 日誌掃描外洩金鑰：AI 自動化安全實戰](daily/2026/11/2026-11-13.md) | agents | GitHub Actions / Secret Scanning | [GitHub 官方公告](https://github.blog/changelog/2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs/) | 官方公告已查核；未企業實測 |
