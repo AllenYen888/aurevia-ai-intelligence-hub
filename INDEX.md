@@ -49,3 +49,16 @@
 | Sitecore Developer MCP beta | Agent／網站 | [官方文件](https://doc.sitecore.com/sai/en/developers/sitecoreai/sitecore-developer-mcp-server.html) |
 
 [完整步驟與FB草稿](daily/2026/11/2026-11-15.md) · [JSON](data/2026-11-15.json) · [發布紀錄](publication/2026-11-15.json)
+
+
+## 2026-11-16 應用條目補充
+
+新增2項、既有MOSS-Image新應用更新1項；不另增加每日文章篇數。保留今日原文。X原頁均403，作者README／模型卡已讀，未實測。已讀可取得六篇歷史，30天全量去重未確認。
+
+| 工具 | 分類 | 資源 |
+|---|---|---|
+| DUGCO Tools | 影片後製／ComfyUI | [作者專案](https://github.com/dughogan/DUGCO_Tools) |
+| AI Video Factory | 教學影片／Agent | [作者專案](https://github.com/ersinkoc/AI-Video-Factory) |
+| MOSS AnyPaint | 遮罩編修／擴圖 | [模型卡](https://huggingface.co/yijunwang2/moss-anypaint) |
+
+[完整情報與FB草稿](daily/2026/11/2026-11-16.md) · [JSON](data/2026-11-16.json) · [發布紀錄](publication/2026-11-16.json)
