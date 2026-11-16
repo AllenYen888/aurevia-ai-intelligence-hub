@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-17",
+  "article_path": "daily/2026/11/2026-11-17.md",
+  "brand_id": "7530741",
+  "facebook_page_id": "105618068881145",
+  "this_run": {
+    "status": "SKIPPED_DUPLICATE_DAILY",
+    "submitted": false,
+    "reason": "當日已存在另一任務的FB待發布貼文；本次僅保存2項來源佐證情報與草稿"
+  },
+  "observed_existing_post": {
+    "id": 430782326,
+    "uuid": "-6552705412185043101",
+    "status": "PENDING",
+    "publication_datetime": "2026-11-17T07:20:00+08:00",
+    "topic": "VS Code Agent Inbox",
+    "plannerUrl": null,
+    "publicUrl": null
+  },
+  "github_readback": {
+    "article": true,
+    "json": true
+  },
+  "source_limitations": "X原文不可讀；7天延伸僅2項，未實測",
+  "checked_at": "2026-11-17T07:02:33+08:00"
+}
