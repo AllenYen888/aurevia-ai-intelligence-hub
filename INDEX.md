@@ -63,3 +63,10 @@
 | MOSS AnyPaint | 遮罩編修／擴圖 | [模型卡](https://huggingface.co/yijunwang2/moss-anypaint) |
 
 [完整情報與FB草稿](daily/2026/11/2026-11-16.md) · [JSON](data/2026-11-16.json) · [發布紀錄](publication/2026-11-16.json)
+
+
+## 2026-11-17 應用條目補充
+
+新增2項、更新0項：Intangible Canvas（圖像／3D／鏡頭構圖）、Plurai Simulation（Agent／模擬驗收）。48小時候選不足，採7天延伸；X原頁無法取得，官方來源已讀，未實測。已讀可取得七篇歷史，30天全量未確認。
+
+[完整情報與FB草稿](daily/2026/11/2026-11-17.md) · [JSON](data/2026-11-17.json) · [發布紀錄](publication/2026-11-17.json)
