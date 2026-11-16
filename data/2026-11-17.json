@@ -1,0 +1,112 @@
+{
+  "date": "2026-11-17",
+  "timezone": "Asia/Taipei",
+  "search_cutoff": "2026-11-17T07:02:33+08:00",
+  "search_window": "48小時不足，延伸7天",
+  "history": {
+    "read_dates": [
+      "2026-11-10",
+      "2026-11-11",
+      "2026-11-12",
+      "2026-11-13",
+      "2026-11-14",
+      "2026-11-15",
+      "2026-11-16"
+    ],
+    "full_30_days_verified": false,
+    "dedup_keys": [
+      "x.url",
+      "github owner/repo",
+      "tool"
+    ]
+  },
+  "counts": {
+    "new": 2,
+    "updated": 0
+  },
+  "selection_note": "只有2項符合本次可取得來源標準，不湊足3項",
+  "items": [
+    {
+      "collected_date": "2026-11-17",
+      "date_note": "延伸7天；X日期依貼文ID時間換算Asia/Taipei，未由X原頁確認",
+      "verification": "X原頁無法取得；已讀官方產品／文件與價格頁；未登入安裝或實測",
+      "change": "new",
+      "id": "intangible-canvas",
+      "title": "用場景與鏡頭調整品牌視覺",
+      "tool": "Intangible Canvas",
+      "category": "圖像／3D／分鏡",
+      "problem": "反覆改提示詞仍難精確調整構圖",
+      "summary": "官方Canvas整合brief、素材、3D場景與鏡頭編輯，可在人工作主導下調整畫面；不保證生成結果完全符合商品實物。",
+      "steps": [
+        "在官方Studio建立測試專案，描述一個簡單場景並確認brief",
+        "保留同一場景與物件，直接調整鏡頭位置及取景",
+        "輸出比較圖，人工檢查形狀、文字與比例；商用前核對方案"
+      ],
+      "audience": "品牌設計師、美業主理人與AI視覺講師",
+      "example": "用虛構無標籤保養瓶，做正面與斜側面兩張提案示意圖（應用建議，未製作）",
+      "cost": "Free為一次性150 credits，非每月；Explorer頁面列年繳折合US$25/月。實際價格依結帳確認。",
+      "limitations": "Free方案未包含Commercial use與MCP；不可把概念渲染當實拍商品或療效證據。雲端素材勿含未授權客人照片。",
+      "x": {
+        "author": "slash1s（索引顯示名稱）",
+        "handle": "@slash1sol",
+        "url": "https://x.com/slash1sol/status/2120572085688783200",
+        "published_date": "2026-11-12",
+        "access": "DisabledError；未讀原文"
+      },
+      "official": [
+        "https://www.intangible.ai/canvas",
+        "https://www.intangible.ai/pricing"
+      ],
+      "github": null,
+      "license": "非開源授權聲明；商用依方案與服務條款，Free頁面列不含商用",
+      "tags": [
+        "品牌視覺",
+        "3D",
+        "鏡頭構圖"
+      ]
+    },
+    {
+      "collected_date": "2026-11-17",
+      "date_note": "延伸7天；X日期依貼文ID時間換算Asia/Taipei，未由X原頁確認",
+      "verification": "X原頁無法取得；已讀官方產品／文件與價格頁；未登入安裝或實測",
+      "change": "new",
+      "id": "plurai-simulation",
+      "title": "在模擬環境檢查客服Agent失敗情境",
+      "tool": "Plurai Simulation",
+      "category": "Agent／測試／自動化",
+      "problem": "正常示範無法涵蓋顧客的例外問法與錯誤操作",
+      "summary": "官方文件提供模擬工具與使用情境、執行測試、提出修正再驗證的流程；測試結果不能視為全面安全或法遵認證。",
+      "steps": [
+        "依docs.plurai.ai選擇Claude Code、Copilot CLI或Codex整合，先用範例Agent",
+        "以假資料建立改期、資料不足、要求療效保證等情境，先保持真實工具寫入為mock",
+        "執行情境測試，檢查失敗證據，採納修正後再跑一次驗證"
+      ],
+      "audience": "開發美業客服、健康內容或中小企業Agent的技術人員",
+      "example": "測試預約助手遇到客人要求保證改善疾病時，是否拒絕承諾並轉交真人（應用建議，未測試）",
+      "cost": "Free列一次性12,300 credits、2個agent setups、7 scenarios、3 runs及10 sandbox hours；不是無限免費。",
+      "limitations": "以虛構顧客資料測試；上傳程式及trace前移除金鑰、姓名、電話。模擬不代表涵蓋所有真實情境。",
+      "x": {
+        "author": "Ilan Kadar",
+        "handle": "@ilan_kadar",
+        "url": "https://x.com/ilan_kadar/status/2120524450831413518",
+        "published_date": "2026-11-11",
+        "access": "403 Forbidden；未讀原文"
+      },
+      "official": [
+        "https://docs.plurai.ai/",
+        "https://www.plurai.ai/blog/introducing-plurai-simulation-self-improving-layer-for-ai-agents",
+        "https://www.plurai.ai/pricing"
+      ],
+      "github": "https://github.com/plurai-ai/plurai-plugins",
+      "github_relationship": "官方文件指向此owner/repo；目前可讀README以evals外掛為主，與Simulation文件存在差異，安裝以Simulation官方文件核對。",
+      "license": "授權未確認；公開儲存庫不等於已確認開源授權",
+      "tags": [
+        "Agent測試",
+        "客服",
+        "模擬"
+      ]
+    }
+  ],
+  "facebook_draft": "【AI做得出來，還要能改、能驗收】\n\n今天的兩個工具方向，一個幫你控制畫面，一個幫你檢查Agent。資料延伸至最近7天；X原頁無法讀取，功能改查官方文件，以下沒有親自實測。\n\n① Intangible Canvas：做品牌視覺時，可以先建立場景與物件，再調整鏡頭取景。練習方式很簡單：用一個虛構、沒有標籤的保養瓶，做正面和斜側面兩張圖，檢查瓶身比例是否一致。這是提案示意，不是實拍或功效證據。免費額度是一次性150點，且Free方案不含商用，別把「能下載」當成「能直接刊登廣告」。\n\n② Plurai Simulation：適合已有客服Agent的技術團隊。先用假資料設計「客人臨時改期」「資訊不足」「要求保證療效」三種情境，模擬執行、檢查錯誤，再修改與重測。官方提供有限的一次性免費額度；通過模擬不代表所有情況都安全。\n\n我建議美業內容團隊先試第一項：同一個場景只改鏡頭，留下兩張比較圖，看看自己能否清楚說出要修哪裡。已有Agent的人，再把第二項加入驗收。\n\n共同原則：不放入客人私密資料，不憑示範承諾成效，每次保留可回查的來源。\n\n官方入口：\nhttps://www.intangible.ai/canvas\nhttps://docs.plurai.ai/\n相關GitHub：\nhttps://github.com/plurai-ai/plurai-plugins\n\n完整步驟、價格限制與X原始連結：\nhttps://github.com/AllenYen888/aurevia-ai-intelligence-hub/blob/main/daily/2026/11/2026-11-17.md\n\nAurevia 奧瑞維亞AI價值商學院\n#AI工具應用 #美業AI #Agent測試",
+  "publication_status": "SKIPPED_DUPLICATE_DAILY"
+}
