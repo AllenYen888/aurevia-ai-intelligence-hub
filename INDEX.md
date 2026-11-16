@@ -4,6 +4,7 @@
 
 | 日期 | 文章 | 主分類 | 工具 | 來源 | 驗證狀態 |
 |---|---|---|---|---|
+| 2026-11-17 | [VS Code Agent Inbox：跨工作區優先處理待審查任務](daily/2026/11/2026-11-17.md) | agents | VS Code / GitHub Copilot | [GitHub 官方公告](https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9/) | 官方公告已查核；實驗性功能；未實測 |
 | 2026-11-16 | [Copilot 六款模型12月14日退場：AI工作流遷移清單](daily/2026/11/2026-11-16.md) | automation | GitHub Copilot | [GitHub 官方公告](https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december/) | 官方公告已查核；未實測 |
 | 2026-11-15 | [Gemini 4 Hydrogen 登陸 GitHub Copilot：美容預約表單實戰](daily/2026/11/2026-11-15.md) | coding | GitHub Copilot / Gemini 4 Hydrogen | [GitHub 官方公告](https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot/) | 官方公告已查核；未實測 |
 | 2026-11-14 | [Phosphene：本機AI影片小測試](daily/2026/11/2026-11-14.md) | video | Phosphene | [作者版本公告](https://github.com/mrbizarro/Phosphene/releases/tag/v5.0.20) | 作者來源已查核；X不可讀；未實測 |
