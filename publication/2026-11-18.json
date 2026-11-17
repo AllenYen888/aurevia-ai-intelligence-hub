@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-18",
+  "article_path": "daily/2026/11/2026-11-18.md",
+  "brand_id": "7530741",
+  "facebook_page_id": "105618068881145",
+  "this_run": {
+    "status": "SKIPPED_DUPLICATE_DAILY",
+    "submitted": false,
+    "reason": "當日另一任務已建立一則FB待發布貼文；本次草稿保存、不另提交"
+  },
+  "observed_existing_post": {
+    "id": 432145292,
+    "uuid": "5033096604157103920",
+    "status": "PENDING",
+    "publication_datetime": "2026-11-18T07:20:00+08:00",
+    "topic": "Pinnacle Ai影片分析",
+    "plannerUrl": null,
+    "publicUrl": null
+  },
+  "github_readback": {
+    "article": true,
+    "json": true
+  },
+  "checked_at": "2026-11-18T07:04:48+08:00",
+  "counts": {
+    "new": 2,
+    "updated": 0
+  }
+}
