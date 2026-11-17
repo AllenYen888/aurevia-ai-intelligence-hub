@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-18",
+  "timezone": "Asia/Taipei",
+  "search_cutoff": "2026-11-18T07:03:12+08:00",
+  "history": {
+    "read_dates": [
+      "2026-11-10",
+      "2026-11-11",
+      "2026-11-12",
+      "2026-11-13",
+      "2026-11-14",
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17"
+    ],
+    "full_30_days_verified": false,
+    "dedup_keys": [
+      "x.url",
+      "github owner/repo",
+      "tool"
+    ]
+  },
+  "counts": {
+    "new": 2,
+    "updated": 0
+  },
+  "selection_note": "48小時不足，延伸7天後僅2項；不湊數",
+  "items": [
+    {
+      "collected_date": "2026-11-18",
+      "verification": "已嘗試開啟X原頁但不可讀；已讀官方文件；未登入、安裝或實測",
+      "change": "new",
+      "date_note": "X日期依貼文ID換算Asia/Taipei，未由原頁確認",
+      "id": "hyperframes-studio-storyboard-reference",
+      "title": "先審分鏡，再讓Agent製作教學短片",
+      "tool": "HyperFrames Studio",
+      "category": "影片／教學／Agent",
+      "problem": "一句話生成後才發現敘事與字幕不符合需求",
+      "summary": "官方第一支影片文件提供需求描述、分鏡靜態預覽、批准後製作及指向畫面修改流程。近期X教學入口提到參考影片，但本次未觀看該影片，不聲稱核實其完整示範。",
+      "steps": [
+        "依官方指引安裝Studio並連接可用Agent",
+        "輸入12秒非醫療教學需求、對象與精確字幕，保留Start with a storyboard",
+        "逐張檢查分鏡再批准製作，在Preview提出具體修改"
+      ],
+      "audience": "AI講師、美業內容設計師與小型品牌團隊",
+      "example": "製作『保養品標籤先看哪些資訊』概念短片，字幕只用已核實內容（建議，未製作）",
+      "cost": "官方稱可用免費HeyGen帳號登入；Agent、生成模型及素材的實際費用／免費額度未確認，不宣稱全流程免費",
+      "limitations": "只參考已授權影片的敘事方法，不複製他人畫面、配樂與角色。不要放入顧客私密素材；每幀核對繁中字幕。",
+      "x": {
+        "author": "HyperFrames團隊",
+        "handle": "@HyperFrames_",
+        "url": "https://x.com/HyperFrames_/status/2122402781277663576",
+        "published_date": "2026-11-17",
+        "access": "DisabledError"
+      },
+      "official": [
+        "https://hyperframes.heygen.com/studio-app/first-video",
+        "https://hyperframes.heygen.com/studio-app/index"
+      ],
+      "github": "https://github.com/heygen-com/hyperframes",
+      "github_relationship": "Studio官網直接連結；框架開源不代表Studio全部服務開源",
+      "license": "HyperFrames框架Apache-2.0；Agent服務、模型與素材另依條款",
+      "tags": [
+        "影片",
+        "分鏡",
+        "AI教學"
+      ]
+    },
+    {
+      "collected_date": "2026-11-18",
+      "verification": "已嘗試開啟X原頁但不可讀；已讀官方文件；未登入、安裝或實測",
+      "change": "new",
+      "date_note": "X日期依貼文ID換算Asia/Taipei，未由原頁確認",
+      "id": "instabox-agent-sandbox",
+      "title": "把Agent測試放到獨立雲端機器",
+      "tool": "InstaBox",
+      "category": "Agent／雲端環境／自動化",
+      "problem": "Agent執行與本機環境互相干擾，測試難以隔離",
+      "summary": "官方文件提供獨立Linux VM、檔案保留、暫停、快照與CLI操作。不同系統模板及收費各有條件，不把創作者展示當成可靠性保證。",
+      "steps": [
+        "先讀官方quickstart與pricing，確認免費環境及停止方式",
+        "在終端依文件使用npx instabox@latest sh登入建立測試環境；不提供正式系統憑證",
+        "用虛構FAQ執行小型測試，取回結果後確認機器暫停及儲存狀態"
+      ],
+      "audience": "有技術協助的中小企業、自動化與Agent教學人員",
+      "example": "在隔離環境測試美容課程FAQ轉Markdown，不連真實CRM（建議，未執行）",
+      "cost": "Free文件列1台4vCPU/8GiB、20GiB磁碟、5快照；Pro US$20/月加用量，CPU／記憶體／儲存等須依價格表核對",
+      "limitations": "付費機暫停後仍可能有超額磁碟費；macOS另有24小時最低租期。不要以『隔離』推論資料永不外傳；金鑰勿寫進日誌。",
+      "x": {
+        "author": "Hang Huang",
+        "handle": "@hanghuang_",
+        "url": "https://x.com/hanghuang_/status/2120909505290756137",
+        "published_date": "2026-11-13",
+        "access": "403 Forbidden"
+      },
+      "official": [
+        "https://instabox.sh/docs",
+        "https://instabox.sh/docs/quickstart",
+        "https://instabox.sh/docs/account/pricing"
+      ],
+      "github": null,
+      "github_relationship": "官方文件連到InsForge組織，但本次未確認對應專案，故不填同名repo",
+      "license": "未確認，不宣稱雲端平台開源",
+      "tags": [
+        "Agent",
+        "雲端沙盒",
+        "成本管理"
+      ]
+    }
+  ],
+  "facebook_draft": "【AI影片與Agent，先把驗收步驟設計好】\n\n今天整理兩個可照文件練習的方向：一個處理影片分鏡，一個處理Agent執行環境。近期來源不足，第二項採最近7天範圍；兩則X原頁都無法讀取，功能已改查官方文件，沒有親自實測。\n\n① HyperFrames Studio：先描述影片的目的、對象與精確字幕，保留「先做分鏡」設定。看到每張靜態畫面後，先確認順序、字句與時間，再批准製作。美業講師可先練一支12秒的標籤閱讀教學，使用自己核實的內容，避免AI補出療效承諾。官方框架採Apache-2.0，但模型、素材與Studio服務仍有各自條件，不能推論整套流程免費。\n\n② InstaBox：讓Agent有獨立的雲端Linux環境，適合技術人員用假資料測試流程。先確認方案與停止方式，再建立一個測試環境，把虛構FAQ轉成Markdown；確認結果後暫停機器。付費環境可能仍有儲存費，Mac租期也有不同規則，不是關上筆電就自動零費用。\n\n我會優先建議內容團隊做第一項：不用急著生成成片，先拿到分鏡，逐張指出「這一句要改什麼、這個畫面要保留什麼」。驗收標準清楚，下一輪修改才有方向。\n\n參考別人的影片時，學敘事方法即可；畫面、配樂、角色與客人照片，都先確認使用權。\n\n官方操作：\nhttps://hyperframes.heygen.com/studio-app/first-video\nhttps://instabox.sh/docs/quickstart\nGitHub框架：\nhttps://github.com/heygen-com/hyperframes\n\n完整情報與X連結：\nhttps://github.com/AllenYen888/aurevia-ai-intelligence-hub/blob/main/daily/2026/11/2026-11-18.md\n\nAurevia 奧瑞維亞AI價值商學院\n#AI工具應用 #美業AI #影片分鏡",
+  "publication_status": "SKIPPED_DUPLICATE_DAILY"
+}
