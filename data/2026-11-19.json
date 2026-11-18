@@ -1,0 +1,112 @@
+{
+  "date": "2026-11-19",
+  "timezone": "Asia/Taipei",
+  "search_cutoff": "2026-11-19T07:03:58+08:00",
+  "search_window": "48小時不足，延伸7天後僅2項",
+  "history": {
+    "read_dates": [
+      "2026-11-10",
+      "2026-11-11",
+      "2026-11-12",
+      "2026-11-13",
+      "2026-11-14",
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17",
+      "2026-11-18"
+    ],
+    "full_30_days_verified": false,
+    "dedup_keys": [
+      "x.url",
+      "github owner/repo",
+      "tool"
+    ]
+  },
+  "counts": {
+    "new": 2,
+    "updated": 0
+  },
+  "items": [
+    {
+      "collected_date": "2026-11-19",
+      "change": "new",
+      "verification": "X原頁不可讀；已讀開發者README；未下載、安裝或實測",
+      "date_note": "7天延伸；X日期依貼文ID換算Asia/Taipei，未由原頁確認",
+      "id": "obscura-h4ckf0r0day",
+      "title": "把自有網站整理成可核對的資料與截圖",
+      "tool": "Obscura",
+      "category": "研究／網頁擷取／Agent工具",
+      "problem": "蒐集網頁資訊時缺少可回看原頁的文字與截圖",
+      "summary": "開發者README提供網頁文字擷取、截圖及CDP連接；其渲染引擎仍在發展，不能把效能比較當成本次實測。",
+      "steps": [
+        "從h4ckf0r0day/obscura Releases選擇符合OS的標準render版本",
+        "對自有公開課程頁依README使用fetch與--dump text保存文字，再以--screenshot保存畫面",
+        "人工核對標題、日期、價格及缺漏，保留網址與擷取時間"
+      ],
+      "audience": "有技術協助的品牌研究員、AI講師、中小企業網站管理者",
+      "example": "核對自有美容課程頁的日期與報名方式是否一致（應用建議，未執行）",
+      "cost": "Apache-2.0引擎可取得；主機與運算另計，代管雲端價格／免費額度未確認",
+      "limitations": "部分CSS、Web API及字型呈現可能異於Chromium；僅處理有權存取的頁面，不將登入牆當作可繞過的障礙。截圖可能含個資，分享前檢查。",
+      "x": {
+        "author": "Guillermo Casaus（分享者，非本次確認的專案作者）",
+        "handle": "@_guillecasaus",
+        "url": "https://x.com/_guillecasaus/status/2120857460705558804",
+        "published_date": "2026-11-12",
+        "access": "403 Forbidden"
+      },
+      "official": [
+        "https://github.com/h4ckf0r0day/obscura",
+        "https://www.obscura.sh/"
+      ],
+      "github": "https://github.com/h4ckf0r0day/obscura",
+      "github_relationship": "README與obscura.sh互相連結，確認為該工具專案；未將X分享者視為作者",
+      "license": "Apache-2.0（引擎；不涵蓋目標網站內容與代管服務）",
+      "tags": [
+        "資料查核",
+        "網頁擷取",
+        "Agent"
+      ]
+    },
+    {
+      "collected_date": "2026-11-19",
+      "change": "new",
+      "verification": "X原頁不可讀；已讀開發者README；未下載、安裝或實測",
+      "date_note": "7天延伸；X日期依貼文ID換算Asia/Taipei，未由原頁確認",
+      "id": "yasakani-local-engine",
+      "title": "先確認GPU，再測本機模型的實際任務品質",
+      "tool": "YASAKANI",
+      "category": "開源／本機AI／文字與程式",
+      "problem": "想在本機處理資料，但只看生成速度容易忽略硬體與任務品質",
+      "summary": "作者提供Windows單RTX GPU的Qwen3.8-27B引擎與相容API。目前README已列較新quickstart；X的0.1.3不是最新版。作者僅實測RTX5090，其他列名卡不保證可用或速度。",
+      "steps": [
+        "核對README的GPU與Windows需求，符合才下載當前quickstart並核對校驗碼",
+        "解壓後依START.cmd完成模型下載及GPU自檢",
+        "用5筆虛構FAQ測試答案與繁中用語，記錄錯誤；不只記錄tokens/s"
+      ],
+      "audience": "已具相容RTX設備的技術人員與本機AI講師",
+      "example": "用虛構美容課程FAQ做離線摘要，逐項比對原文（應用建議，未測）",
+      "cost": "引擎Apache-2.0；硬體、磁碟與電力另計，雲端免費額度未確認；不建議只為未實測宣稱購置GPU",
+      "limitations": "作者測試僅RTX5090；速度數據有特定任務與設定，不等於一般推理或任務正確率。本機API先限localhost，使用假資料與隔離資料夾。",
+      "x": {
+        "author": "Akito Hirai",
+        "handle": "@yasakani_dev",
+        "url": "https://x.com/yasakani_dev/status/2121739609164198027",
+        "published_date": "2026-11-15",
+        "access": "DisabledError"
+      },
+      "official": [
+        "https://github.com/yasakani-dev/yasakani"
+      ],
+      "github": "https://github.com/yasakani-dev/yasakani",
+      "github_relationship": "開發者帳號連結同名owner repo；README及授權已核對",
+      "license": "Apache-2.0（專案；模型與第三方元件另查條款）",
+      "tags": [
+        "本機AI",
+        "GPU",
+        "FAQ測試"
+      ]
+    }
+  ],
+  "facebook_draft": "【AI工具值不值得用？先留證據，再看速度】\n\n今天保留兩個偏技術的實作方向，適合有工程協助的品牌團隊與AI講師。近期資料不足，採最近7天範圍；兩則X原頁無法讀取，功能已改查開發者文件，沒有親自安裝或實測。\n\n① Obscura：開發者提供文字擷取與截圖功能。先從自己的公開課程頁開始，保存頁面文字、截圖、網址及日期，再核對開課時間、價格和報名方式是否一致。不是抓到文字就能當成正確資料；特殊版面與字型仍可能呈現不同，也不要擷取沒有權限的內容。\n\n② YASAKANI：讓相容Windows與RTX設備執行本機模型。先查硬體條件，再用五筆虛構FAQ測試：有沒有漏掉限制？會不會自己新增資訊？繁體中文是否符合品牌用語？作者只在RTX5090實測，不能把其他顯卡列在清單上，就當成已保證能跑。\n\n對美業團隊，我會先建議第一項：把自己的課程頁做成一份有網址、有日期、可回看畫面的查核紀錄。它不是自動招生工具，卻能幫助團隊知道AI摘要到底根據什麼。\n\n兩個專案都提供Apache-2.0引擎，但網站內容、模型和第三方元件仍有各自條款。免費程式也需要運算、維護與人工驗收；不要為尚未驗證的速度宣稱急著買設備。\n\n開發者文件與GitHub：\nhttps://github.com/h4ckf0r0day/obscura\nhttps://github.com/yasakani-dev/yasakani\n\n完整步驟、X連結與限制：\nhttps://github.com/AllenYen888/aurevia-ai-intelligence-hub/blob/main/daily/2026/11/2026-11-19.md\n\nAurevia 奧瑞維亞AI價值商學院\n#AI工具應用 #資料查核 #本機AI",
+  "publication_status": "SKIPPED_DUPLICATE_DAILY"
+}
