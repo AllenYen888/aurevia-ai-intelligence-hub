@@ -3,7 +3,8 @@
 目前每日文章數：10 篇（含官方／作者來源佐證條目；不可視為皆已讀 X 原文）。
 
 | 日期 | 文章 | 主分類 | 工具 | 來源 | 驗證狀態 |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
+| 2026-11-19 | [Copilot 新增八種 MCP 連接器：美容預約與品牌工作流](daily/2026/11/2026-11-19.md) | agents | GitHub Copilot / MCP | [GitHub 官方公告](https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot/) | 官方已查核；未實測 |
 | 2026-11-18 | [讓 AI 把教學影片變成社群素材](daily/2026/11/2026-11-18.md) | marketing | Pinnacle Ai | [官方公告](https://getpinnacle.ai/updates/video-analysis-in-managed-agents) | 官方已查核；未實測 |
 | 2026-11-17 | [VS Code Agent Inbox：跨工作區優先處理待審查任務](daily/2026/11/2026-11-17.md) | agents | VS Code / GitHub Copilot | [GitHub 官方公告](https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9/) | 官方公告已查核；實驗性功能；未實測 |
 | 2026-11-16 | [Copilot 六款模型12月14日退場：AI工作流遷移清單](daily/2026/11/2026-11-16.md) | automation | GitHub Copilot | [GitHub 官方公告](https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december/) | 官方公告已查核；未實測 |
