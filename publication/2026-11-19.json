@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-19",
+  "article_path": "daily/2026/11/2026-11-19.md",
+  "brand_id": "7530741",
+  "facebook_page_id": "105618068881145",
+  "this_run": {
+    "status": "SKIPPED_DUPLICATE_DAILY",
+    "submitted": false,
+    "reason": "當日另一任務已建立一則Facebook待發布貼文；本次只保存情報與草稿"
+  },
+  "observed_existing_post": {
+    "id": 433538433,
+    "uuid": "-4482623367561916766",
+    "status": "PENDING",
+    "publication_datetime": "2026-11-19T07:20:00+08:00",
+    "topic": "GitHub Copilot MCP連接器",
+    "plannerUrl": null,
+    "publicUrl": null
+  },
+  "checked_at": "2026-11-19T07:05:26+08:00",
+  "github_readback": {
+    "article": true,
+    "json": true
+  },
+  "counts": {
+    "new": 2,
+    "updated": 0
+  }
+}
