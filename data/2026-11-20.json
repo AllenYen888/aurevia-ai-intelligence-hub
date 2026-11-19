@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-20",
+  "timezone": "Asia/Taipei",
+  "search_cutoff": "2026-11-20T07:00:41+08:00",
+  "history": {
+    "available_articles": 10,
+    "range": "2026-11-10至2026-11-19",
+    "full_30_days_verified": false,
+    "dedup_keys": [
+      "x_source.url",
+      "github owner/repo",
+      "tool"
+    ],
+    "result": "兩項未見於可取得歷史；不是30天全量保證"
+  },
+  "selection_note": "近48小時保留2項；其他候選缺少可確認的近期原始X入口或實際用途，不湊3項。日期以貼文ID換算，原頁不可讀。",
+  "items": [
+    {
+      "id": "cursor-gemini-4-neon",
+      "title": "用 Cursor 整理虛構預約資料，再人工驗收",
+      "tool": "Cursor／Gemini 4 Neon",
+      "category": "文字／程式／Agent",
+      "problem": "人工整理預約CSV與製作簡易工具耗時，且AI可能漏列資料。",
+      "summary": "Cursor官方文件確認Neon可讀寫檔案及使用終端、瀏覽器工具。可用於小型資料處理原型；不把官方評測視為你的工作成效。",
+      "steps": [
+        "在測試資料夾放入10筆虛構預約CSV，保留原檔。",
+        "在Cursor選擇Gemini 4 Neon，要求產生按日期整理及檢查重複的腳本，先預覽差異。",
+        "在副本執行，逐筆比對輸入、輸出與筆數，再決定是否採用。"
+      ],
+      "audience": "有基本程式協助的美業工作室、中小企業、AI講師",
+      "example": "把虛構課程報名表整理成每日名單；此為應用建議，未執行。",
+      "cost": "官方列每百萬tokens輸入US$3、快取讀取US$0.15、輸出US$15；第三方模型另計費，非方案內含免費額度。",
+      "limitations": "不要輸入真實客戶電話或健康資料；檔案與終端操作須檢查差異，設定支出上限。",
+      "x_source": {
+        "author": "Cursor（產品開發團隊）",
+        "handle": "@cursor_ai",
+        "url": "https://x.com/cursor_ai/status/2123198346802450926",
+        "published_at": "2026-11-19T07:35:07+08:00",
+        "date_basis": "貼文ID時間換算；索引標示11/18，對應UTC日期；X原頁未能確認",
+        "access": "403 Forbidden"
+      },
+      "official_sources": [
+        "https://prod.cursor.com/docs/models/gemini-4-neon"
+      ],
+      "github_url": null,
+      "github_note": "無：本次未確認該產品官方公開原始碼庫，不以同名專案替代。",
+      "verification": "X原頁無法讀取；已讀官方功能與費用文件；未安裝或實測。",
+      "collected_date": "2026-11-20",
+      "tags": [
+        "資料整理",
+        "預約CSV",
+        "Cursor",
+        "Agent"
+      ],
+      "change_type": "new"
+    },
+    {
+      "id": "openclaw-specialist-team-workflow",
+      "title": "把資料整理、寫稿、覆核拆成可檢查的角色",
+      "tool": "OpenClaw",
+      "category": "Agent／開源／內容工作流",
+      "problem": "同一個AI一邊找資料一邊寫結論，難以辨認查核責任。",
+      "summary": "官方文件提供多Agent角色與團隊設定，可分開工作區及任務；不等於輸出自動正確，也不自動產生發布排程。",
+      "steps": [
+        "依官方安裝指南在測試環境完成onboarding，先用虛構資料。",
+        "用Agents設定建立研究、撰稿、覆核角色，分別寫明輸入、輸出、來源要求及不得自行發布。",
+        "交付一份自有課程說明，檢查三份成果及來源；由人核對日期與價格後才對外使用。"
+      ],
+      "audience": "有技術維護能力的內容團隊、顧問、AI教學者",
+      "example": "研究角色整理自有課程資訊，寫稿角色改成貼文，覆核角色核對日期與費用；應用建議，未執行。",
+      "cost": "MIT程式可取得；模型API、主機及維護另計；免費模型額度未確認。",
+      "limitations": "工作區不是硬性沙箱；角色分開不保證所有外掛與記憶隔離。不要提供客戶健康資料，先限制工具、跨角色讀取與外部發布權限。",
+      "x_source": {
+        "author": "McBain（教學分享者；未確認為核心開發者）",
+        "handle": "@heyneighbor",
+        "url": "https://x.com/heyneighbor/status/2123179763246477611",
+        "published_at": "2026-11-19T06:21:16+08:00",
+        "date_basis": "貼文ID時間換算；索引標示11/18，對應UTC日期；X原頁未能確認",
+        "access": "403 Forbidden",
+        "discovery": "OpenClaw官方帳號轉分享入口；不將轉分享視為已觀看教學"
+      },
+      "official_sources": [
+        "https://docs.openclaw.ai/concepts/multi-agent",
+        "https://github.com/openclaw/openclaw"
+      ],
+      "github_url": "https://github.com/openclaw/openclaw",
+      "github_note": "README連結官方網站及文件，與工具名稱及維護組織一致。",
+      "license": "MIT（已讀LICENSE；模型與第三方服務另依條款）",
+      "verification": "X原頁無法讀取，未觀看影片；已讀官方多Agent文件、README與LICENSE；未部署或實測。",
+      "collected_date": "2026-11-20",
+      "tags": [
+        "內容工作流",
+        "角色覆核",
+        "OpenClaw",
+        "開源"
+      ],
+      "change_type": "new"
+    }
+  ],
+  "facebook_draft": "【讓AI幫忙工作，先把「驗收」寫進流程】\n今天的 Aurevia AI 工具應用情報庫，保留兩個可照做的方向：整理資料，以及把內容工作拆成研究、撰稿、覆核。兩則X來源都在最近48小時內，但原頁目前無法讀取，功能改以官方文件查核；本次沒有安裝或實測，也沒有觀看作者教學影片。\n\n① Cursor／Gemini 4 Neon：先建立10筆虛構預約資料，讓Agent協助產生按日期整理、檢查重複的腳本。先看修改差異，再於副本執行，最後逐筆核對，確認沒有漏掉或新增報名者。官方列輸入每百萬tokens3美元、輸出15美元，第三方模型另計費，不能把訂閱當成無限免費使用。\n\n② OpenClaw：有技術協助的團隊，可建立研究、撰稿與覆核角色。研究者保留來源，撰稿者只使用確認內容，覆核者檢查日期、價格與誇大語句。程式採MIT授權，但模型、主機與維護仍有成本；不同工作區也不等於所有資料已安全隔離。\n\n我會先從第一項開始：只用假資料、只處理一張表、只驗收一件事。把「輸入筆數、輸出筆數、錯誤清單」留下來，才能判斷工具是否適合自己的工作。涉及顧客電話或健康資料，先移除識別資訊；內容仍由人核對後發布。\n\n原始來源：\nhttps://x.com/cursor_ai/status/2123198346802450926\nhttps://x.com/heyneighbor/status/2123179763246477611\n\n完整步驟、官方文件與GitHub資源入口：\nhttps://github.com/AllenYen888/aurevia-ai-intelligence-hub/blob/main/daily/2026/11/2026-11-20.md\n\nAurevia 奧瑞維亞AI價值商學院\n#AI工具應用 #美業數位化 #AIAgent #資料查核"
+}
