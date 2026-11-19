@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-20",
+  "timezone": "Asia/Taipei",
+  "article_path": "daily/2026/11/2026-11-20.md",
+  "article_readback_verified": true,
+  "data_readback_verified": true,
+  "brand_id": "7530741",
+  "facebook_page_id": "105618068881145",
+  "metricool_id": 434878648,
+  "metricool_uuid": "8501127779047720601",
+  "status": "PENDING",
+  "scheduled_at": "2026-11-20T07:04:00+08:00",
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7530741&openWithPostUuid=8501127779047720601",
+  "public_url": null,
+  "duplicate_check": {
+    "scheduled_posts_before_submission": 0,
+    "analytics_rows_before_submission": 0,
+    "publication_record_before_submission": "not found",
+    "note": "平台資料可能延遲；只建立本則，不因未知狀態重建。"
+  },
+  "added": 2,
+  "updated": 0
+}
