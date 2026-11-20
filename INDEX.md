@@ -1,9 +1,10 @@
 # 情報總索引
 
-目前每日文章數：11 篇（含官方／作者來源佐證條目；不可視為皆已讀 X 原文）。
+目前每日文章數：12 篇（含官方／作者來源佐證條目；不可視為皆已讀 X 原文）。
 
 | 日期 | 文章 | 主分類 | 工具 | 來源 | 驗證狀態 |
 |---|---|---|---|---|---|
+| 2026-11-21 | [AI Agent 團隊共用：Copilot Team Customizations](daily/2026/11/2026-11-21.md) | agents | GitHub Copilot Team Customizations | [GitHub 官方公告](https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team/) | 官方已查核；未實測 |
 | 2026-11-20 | [Copilot Evals：AI Agent 的可重複驗收](daily/2026/11/2026-11-20.md#每日-ai-大神實戰情報庫copilot-evals) | agents | GitHub Copilot Evals | [GitHub 官方公告](https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview/) | 官方已查核；未實測 |
 | 2026-11-20 | [資料整理與角色覆核：兩個可驗收的AI工作流](daily/2026/11/2026-11-20.md) | agents / coding | Cursor／Gemini 4 Neon、OpenClaw | 官方文件／專案 | X原頁403；官方已查核；未實測 |
 | 2026-11-19 | [Copilot 新增八種 MCP 連接器：美容預約與品牌工作流](daily/2026/11/2026-11-19.md) | agents | GitHub Copilot / MCP | [GitHub 官方公告](https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot/) | 官方已查核；未實測 |
