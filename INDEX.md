@@ -1,9 +1,10 @@
 # 情報總索引
 
-目前每日文章數：12 篇（含官方／作者來源佐證條目；不可視為皆已讀 X 原文）。
+目前每日文章數：13 篇（含官方／作者來源佐證條目；不可視為皆已讀 X 原文）。
 
 | 日期 | 文章 | 主分類 | 工具 | 來源 | 驗證狀態 |
 |---|---|---|---|---|---|
+| 2026-11-22 | [目標驗收與旁支查核：兩個AI工作流](daily/2026/11/2026-11-22.md) | automation / research | Replit Missions、Antigravity | 官方文件 | X原頁403；未實測 |
 | 2026-11-21 | [AI Agent 團隊共用：Copilot Team Customizations](daily/2026/11/2026-11-21.md) | agents | GitHub Copilot Team Customizations | [GitHub 官方公告](https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team/) | 官方已查核；未實測 |
 | 2026-11-20 | [Copilot Evals：AI Agent 的可重複驗收](daily/2026/11/2026-11-20.md#每日-ai-大神實戰情報庫copilot-evals) | agents | GitHub Copilot Evals | [GitHub 官方公告](https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview/) | 官方已查核；未實測 |
 | 2026-11-20 | [資料整理與角色覆核：兩個可驗收的AI工作流](daily/2026/11/2026-11-20.md) | agents / coding | Cursor／Gemini 4 Neon、OpenClaw | 官方文件／專案 | X原頁403；官方已查核；未實測 |
@@ -103,3 +104,10 @@
 新增2項、更新0項：Hermes／Teams雲端連接、LangSmith Tool Gateway。近48小時X入口，日期依ID換算；X原頁403，官方文件已讀，未實測。比對可取得12篇文章，未確認30天全量。今日既有文章保留，不增加每日篇數。
 
 [完整步驟與FB草稿](daily/2026/11/2026-11-21.md) · [JSON](data/2026-11-21.json) · [發布紀錄](publication/2026-11-21.json)
+
+
+## 2026-11-22 情報
+
+新增2項、更新0項；近48小時X分享入口。X日期依ID換算，原頁403；官方文件已讀，未實測。比對可取得12篇歷史，未確認30天全量。
+
+[完整情報與FB稿](daily/2026/11/2026-11-22.md) · [JSON](data/2026-11-22.json) · [發布紀錄](publication/2026-11-22.json)
