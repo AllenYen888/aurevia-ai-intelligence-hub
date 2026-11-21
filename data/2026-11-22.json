@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-22",
+  "timezone": "Asia/Taipei",
+  "search_cutoff": "2026-11-22T07:02:33+08:00",
+  "history": {
+    "available_articles": 12,
+    "range": "2026-11-10至2026-11-21",
+    "full_30_days_verified": false,
+    "dedup_keys": [
+      "X原始URL",
+      "GitHub owner/repo",
+      "工具名稱"
+    ],
+    "result": "兩項未見於可取得文章"
+  },
+  "selection_note": "近48小時X分享入口保留2項，不湊數；官方Missions公告較早，已明示11/17發布與11/19更新。X原頁均403，未實測。其他候選作者資料不可讀，不收錄。",
+  "items": [
+    {
+      "id": "replit-missions-goal-contract",
+      "title": "把網站小任務寫成有預算與驗收的Mission",
+      "tool": "Replit Missions",
+      "category": "網站／Agent／專案自動化",
+      "problem": "只說「幫我做網站」時，任務邊界、花費與完成標準不清楚。",
+      "summary": "官方提供以目標、預算與需核准操作建立Mission的方式，再由Agent規劃與驗收。官方案例不是本次實測，更不保證取得客戶或增加營收。",
+      "steps": [
+        "若帳號有Mission入口，點New→Mission，描述一個小任務，例如虛構課程的報名頁原型。",
+        "在Mission agreement列出預算、完成標準及須人工核准的操作：不發訊息、不購買、不發布。",
+        "要求完成表單驗證及手機版檢查，查看成果與待辦，再由人逐項驗收；預算耗盡不等於完成。"
+      ],
+      "audience": "有網站原型需求、能評估預算的中小企業與課程團隊",
+      "example": "建立只含虛構資料的美容課程報名頁原型，先不上線；編輯應用建議，未執行。",
+      "cost": "實際方案、用量費及免費額度未確認；官方示範預算不是產品定價，不作免費承諾。",
+      "limitations": "需核對可用性與雲端花費；使用假資料並限制外部操作。AI judge驗收不代替人工確認。",
+      "x_source": {
+        "author": "Replit產品開發團隊",
+        "handle": "@Replit",
+        "url": "https://x.com/Replit/status/2123921837729919179",
+        "published_at": "2026-11-21T07:30:01+08:00",
+        "date_basis": "貼文ID換算Asia/Taipei；索引顯示UTC11/20，原頁403未確認",
+        "access": "403 Forbidden"
+      },
+      "official_sources": [
+        "https://replit.com/blog/introducing-replit-missions"
+      ],
+      "official_date": "2026-11-17發布，11/19更新；不混同X分享時間",
+      "github_url": null,
+      "github_note": "Missions本體未確認官方公開repo。相關官方案例資源：https://github.com/replit/datacat ，由Replit公告直接連結；DataCat是獨立監測專案，不是Missions原始碼。",
+      "related_github": "https://github.com/replit/datacat",
+      "license": "DataCat README列Apache-2.0（僅相關案例repo，不涵蓋Missions服務）",
+      "verification": "X原頁不可讀；已讀官方公告、相關DataCat README；未登入、執行或實測，未觀看X影片。",
+      "collected_date": "2026-11-22",
+      "tags": [
+        "網站原型",
+        "預算",
+        "驗收"
+      ],
+      "change_type": "new"
+    },
+    {
+      "id": "antigravity-btw-side-questions",
+      "title": "主工作繼續跑，另外核對一個問題",
+      "tool": "Google Antigravity／btw",
+      "category": "研究／程式／對話工作流",
+      "problem": "處理長任務時，臨時詢問一個設定或檔案位置，容易打斷主線。",
+      "summary": "官方文件說明/btw建立旁支問答，可讀檔查證；App能追問並在完成後升為獨立對話，CLI各次提問另開fork。不是額外的安全沙箱。",
+      "steps": [
+        "在已有訊息的測試專案對話輸入「/btw 請找出表單必填欄位的定義，只查詢，不修改」。",
+        "查看旁支使用的檔案與依據，核對答案；App可在Side Question分頁追問。",
+        "想繼續深入時，等App旁支完成再選Promote to Conversation；CLI保留卡片歷史，勿假設同樣支援升級。"
+      ],
+      "audience": "已有Antigravity環境的網站維護者、AI講師、技術顧問",
+      "example": "主線製作課程頁時，旁支查詢電話欄位是否必填；編輯應用建議，未執行。",
+      "cost": "本次未確認方案、模型用量及免費額度；不要將旁支當成零成本。",
+      "limitations": "沿用模型、MCP與權限設定。唯讀是模型指示，不是獨立沙箱；要求修改時仍可能依既有權限動作，不放入真實顧客資料。",
+      "x_source": {
+        "author": "Google Antigravity產品開發團隊",
+        "handle": "@antigravity",
+        "url": "https://x.com/antigravity/status/2123921833883840650",
+        "published_at": "2026-11-21T07:30:00+08:00",
+        "date_basis": "貼文ID換算Asia/Taipei；索引顯示UTC11/20，原頁403未確認",
+        "access": "403 Forbidden"
+      },
+      "official_sources": [
+        "https://antigravity.google/docs/commands/btw/"
+      ],
+      "github_url": null,
+      "github_note": "無：未確認此功能官方公開原始碼repo，不以同名專案替代。",
+      "verification": "X原頁不可讀；已讀官方/btw操作文件；未登入、執行或觀看示範影片。",
+      "collected_date": "2026-11-22",
+      "tags": [
+        "旁支提問",
+        "資料查核",
+        "Antigravity"
+      ],
+      "change_type": "new"
+    }
+  ],
+  "facebook_draft": "【AI任務越做越大？先寫清楚「怎樣才算完成」】\n\n今天保留兩個近期工作流：Replit Missions把目標、預算與驗收放進同一項任務；Antigravity的/btw讓你在主工作進行時，另外查證一個小問題。兩則X原頁受限，功能已改查官方文件；沒有親自登入或實測，也未觀看作者影片。\n\n① 想做課程報名頁，可先把任務縮成「使用假資料完成手機版原型，檢查必填欄位，暫不上線」。在Missions入口寫清目標，設定可接受的預算，以及發訊息、購買、發布前必須人工核准。完成後仍要逐項驗收；預算用完只代表停止，不能當成任務已成功，更不能把官方案例當成招生效果保證。\n\n② 已使用Antigravity的人，主線製作網站時，可用/btw詢問「電話欄位在哪裡定義？只查詢、不修改」。核對它引用的檔案，再決定是否處理。App旁支完成後可升為獨立對話；CLI每次提問另開旁支，操作方式有差異。它沿用原來權限，並不是新增一個安全沙箱。\n\n我會先建議已有Antigravity的團隊，從第二項試一個小問題；沒有環境的人，先把第一項的驗收寫法用到現有工具。工具還沒增加，交付標準就能先變清楚。\n\n兩項實際費用與免費額度本次未確認，請先查方案。測試不放顧客電話、健康資料或付款資訊。Replit另提供DataCat案例程式庫供工程人員研究，但那不是Missions本體的原始碼。\n\nX來源：\nhttps://x.com/Replit/status/2123921837729919179\nhttps://x.com/antigravity/status/2123921833883840650\n\n相關GitHub案例：https://github.com/replit/datacat\n完整步驟與官方來源：\nhttps://github.com/AllenYen888/aurevia-ai-intelligence-hub/blob/main/daily/2026/11/2026-11-22.md\n\nAurevia 奧瑞維亞AI價值商學院\n#AI工具應用 #網站工作流 #資料查核",
+  "added": 2,
+  "updated": 0
+}
