@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-24",
+  "timezone": "Asia/Taipei",
+  "observed_at_utc": "2026-11-23 23:00:42 UTC",
+  "article_path": "daily/2026/11/2026-11-24.md",
+  "data_path": "data/2026-11-24.json",
+  "github_readback_verified": true,
+  "allowed_destination": {
+    "brand_id": 7530741,
+    "brand_name": "演鏡哥 美業文案創客",
+    "facebook_page_id": "105618068881145"
+  },
+  "action": "SKIPPED_DUPLICATE_DAY",
+  "this_run_created_post": false,
+  "existing_post": {
+    "id": 439553278,
+    "uuid": "-1326019218918783766",
+    "status": "PENDING",
+    "scheduled_local": "2026-11-24T07:20:00+08:00",
+    "network": "facebook",
+    "topic": "ChatGPT Live Dictation：用語音整理美業教學靈感",
+    "public_url": null,
+    "planner_url": null
+  },
+  "note": "既有其他任務貼文保留；本次三項情報FB草稿已存文章與JSON，未另提交。不代表已發布；PUBLISHED與實際URL尚未確認。"
+}
