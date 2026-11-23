@@ -1,9 +1,10 @@
 # 情報總索引
 
-目前每日文章數：14 篇（含官方／作者來源佐證條目；不可視為皆已讀 X 原文）。
+目前每日文章數：15 篇（含官方／作者來源佐證條目；不可視為皆已讀 X 原文）。
 
 | 日期 | 文章 | 主分類 | 工具 | 來源 | 驗證狀態 |
 |---|---|---|---|---|---|
+| 2026-11-24 | [ChatGPT Live Dictation：語音整理美業教學靈感](daily/2026/11/2026-11-24.md) | content-creation | ChatGPT Live Dictation | [OpenAI 官方更新](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) | 官方已查核；IG/Threads未核實；未實測 |
 | 2026-11-23 | [把改稿累積成品牌知識：Knowledge Factory](daily/2026/11/2026-11-23.md) | knowledge / writing | Knowledge Factory工作流 | [作者官方文章](https://www.langchain.com/blog/knowledge-factory) | 作者文章已讀；X原頁403；未實測 |
 | 2026-11-22 | [目標驗收與旁支查核：兩個AI工作流](daily/2026/11/2026-11-22.md) | automation / research | Replit Missions、Antigravity | 官方文件 | X原頁403；未實測 |
 | 2026-11-21 | [AI Agent 團隊共用：Copilot Team Customizations](daily/2026/11/2026-11-21.md) | agents | GitHub Copilot Team Customizations | [GitHub 官方公告](https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team/) | 官方已查核；未實測 |
