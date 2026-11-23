@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-24",
+  "search_cutoff": "2026-11-24T06:59:10+08:00",
+  "search_window": "優先48小時；VEED與OpenMotion採7天延伸",
+  "history": {
+    "requested_days": 30,
+    "available_articles": 15,
+    "dates": "2026-11-10至2026-11-24",
+    "full_30_days_verified": false,
+    "dedup_keys": [
+      "x.url",
+      "github owner/repo",
+      "tool"
+    ],
+    "result": "可取得紀錄未見相同三項；保留今日其他任務原文"
+  },
+  "items": [
+    {
+      "id": "veed-ai-video-agent-2123418553059618909",
+      "title": "用一句剪輯指令整理店內短片",
+      "tool": "VEED AI",
+      "category": "影片／內容製作",
+      "problem": "已有手機素材，卻難以整理成有字幕的短片。",
+      "summary": "官方公告可上傳素材並用提示詞剪輯、加字幕與品牌元素，再以追問修改。",
+      "steps": [
+        "在 veed.io/ai 上傳一段有使用權的店內素材。",
+        "要求剪成30秒、加繁中字幕並保留服務流程。",
+        "逐句核對字幕、價格與畫面，再要求修改並匯出。"
+      ],
+      "audience": "美業店家、中小企業、內容講師",
+      "example": "把洗髮流程素材整理成到店前說明；此為應用構想。",
+      "cost": "官方確認有免費方案、免費匯出無VEED浮水印；額度與付費價格未確認。",
+      "limitations": "先取得入鏡者同意；雲端上傳前移除顧客資料。繁中字幕效果未實測。",
+      "x": {
+        "author": "VEED",
+        "handle": "@veedstudio",
+        "url": "https://x.com/veedstudio/status/2123418553059618909",
+        "posted_at": "2026-11-19T22:10:08+08:00",
+        "date_basis": "X Snowflake ID換算，非原頁日期顯示",
+        "access": "403，未讀到原始貼文"
+      },
+      "official": [
+        "https://www.veed.io/newsroom/veed-ai-video-editing-agent"
+      ],
+      "github": null,
+      "license": null,
+      "tags": [
+        "影片",
+        "美業",
+        "字幕"
+      ],
+      "verification": "官方公告已讀；X原頁403；未實測；非效果保證。",
+      "collected_at": "2026-11-24T06:59:10+08:00",
+      "change_type": "new"
+    },
+    {
+      "id": "openmotion-brand-video-2123373489730310261",
+      "title": "保留可編輯專案的品牌動畫",
+      "tool": "OpenMotion",
+      "category": "開源／動態設計",
+      "problem": "影片交付後難以重用字幕、節奏與品牌版型。",
+      "summary": "作者README提供本機Studio、Motion.md與MP4輸出，讓動畫步驟留在可編輯專案。",
+      "steps": [
+        "依README安裝OpenMotion並連接本機Studio與Agent。",
+        "選一個模板，換成自己的品牌文字與授權素材。",
+        "在Studio校對節奏、字體與署名，輸出MP4並保存專案。"
+      ],
+      "audience": "AI講師、設計接案者、有技術協助的品牌",
+      "example": "製作三步驟課程介紹動畫，之後沿用專案換新課程；此為應用構想。",
+      "cost": "程式開源免費；模型API、Agent與素材成本另計，免費額度未確認。",
+      "limitations": "模板、音樂與字體各有權利條件；勿直接搬用參考品牌影片。外部模型可能接收素材。",
+      "x": {
+        "author": "OpenDesign",
+        "handle": "@OpenDesignHQ",
+        "url": "https://x.com/OpenDesignHQ/status/2123373489730310261",
+        "posted_at": "2026-11-19T19:11:04+08:00",
+        "date_basis": "X Snowflake ID換算，非原頁日期顯示",
+        "access": "403，未讀到原始貼文"
+      },
+      "official": [
+        "https://github.com/nexu-io/openmotion"
+      ],
+      "github": "https://github.com/nexu-io/openmotion",
+      "license": "Apache-2.0；第三方程式、模板、媒體與字體保留各自授權。",
+      "tags": [
+        "開源",
+        "影片",
+        "品牌動畫"
+      ],
+      "verification": "作者README已讀，帳號與專案關聯可核對；X原頁403；未安裝實測。",
+      "collected_at": "2026-11-24T06:59:10+08:00",
+      "change_type": "new"
+    },
+    {
+      "id": "gemini-api-cli-media-2124593932038254981",
+      "title": "把教學錄影分析接入Agent流程",
+      "tool": "Gemini API CLI／gemini-api-cli skill",
+      "category": "Agent／研究／影音分析",
+      "problem": "教學錄影整理與後續內容製作分散在不同工具。",
+      "summary": "Google組織維護的API CLI可分析檔案並處理影音；相關skill提供Agent操作指引。",
+      "steps": [
+        "依google-gemini/gemini-api-cli的Releases安裝CLI。",
+        "設定自己的API金鑰，以 gemini-api whoami 核對認證來源。",
+        "執行 gemini-api analyze \"列出三個教學重點與待人工核對處\" -i lesson.mp4，再對照影片確認。"
+      ],
+      "audience": "AI教學者、技術顧問、企業自動化人員",
+      "example": "將自錄美容教學影片整理為課程索引；不交由AI自行補充療效。",
+      "cost": "API費用與免費額度未確認；CLI授權不代表模型呼叫免費。",
+      "limitations": "影片送往雲端API；不可含未授權個資。CLI為beta，需固定版本；與互動式Gemini CLI不同。",
+      "x": {
+        "author": "Dmitry Lyalin",
+        "handle": "@LyalinDotCom",
+        "url": "https://x.com/LyalinDotCom/status/2124593932038254981",
+        "posted_at": "2026-11-23T04:00:41+08:00",
+        "date_basis": "X Snowflake ID換算，非原頁日期顯示",
+        "access": "403，未讀到原始貼文"
+      },
+      "official": [
+        "https://github.com/google-gemini/gemini-api-cli",
+        "https://github.com/google-gemini/gemini-skills/blob/main/skills/gemini-api-cli/SKILL.md"
+      ],
+      "github": "https://github.com/google-gemini/gemini-api-cli",
+      "related_github": "https://github.com/google-gemini/gemini-skills",
+      "license": "CLI軟體Apache-2.0，其他材料CC BY 4.0；gemini-skills為Apache-2.0。",
+      "tags": [
+        "Agent",
+        "影音分析",
+        "AI教學"
+      ],
+      "verification": "Google組織README與skill已讀；專案註明非正式支援產品；X原頁403；未實測。",
+      "collected_at": "2026-11-24T06:59:10+08:00",
+      "change_type": "new"
+    }
+  ],
+  "best": {
+    "id": "veed-ai-video-agent-2123418553059618909",
+    "reason": "已有手機素材即可小規模驗收；相較另外兩項，較少技術設定。此為編輯判斷，未實測。"
+  },
+  "facebook_draft": "【三種AI影片工作流：先做一段，再決定要不要導入】\n\n2026/11/24 Aurevia AI 工具應用情報。今天收集到三個值得研究的入口：VEED AI、OpenMotion、Gemini API CLI。X原頁皆回傳403，以下只採已讀的官方公告與作者文件，沒有把展示當成親自測試；其中兩項延伸至近7天。\n\n① 想把手機素材剪成短片：先試VEED AI。上傳自己拍攝的店內流程，要求剪成30秒、加入繁中字幕，再逐句檢查服務名稱與價格。官方公告有免費方案，但使用額度仍須以帳號畫面為準。\n\n② 想保留可修改的品牌動畫：研究OpenMotion。先選模板、換上自己的文字與授權素材，在Studio確認節奏後輸出；同時保存可編輯專案，方便下一堂課重用。程式開源，模型呼叫可能另外計費。\n\n③ 想把錄影整理接入自動化：Gemini API CLI提供檔案分析入口。先設定API認證，再請Agent整理教學重點，最後回看原片核對。它需要技術設定，適合有工程支援的團隊。\n\n若你經營美業或教學品牌，建議先用一段不含顧客個資的素材驗收：字幕是否正確、畫面是否有授權、成品是否符合自己的需求。健康保健內容也要人工核對來源，不能讓AI補寫療效。\n\nX來源：\nhttps://x.com/veedstudio/status/2123418553059618909\nhttps://x.com/OpenDesignHQ/status/2123373489730310261\nhttps://x.com/LyalinDotCom/status/2124593932038254981\nGitHub資源：\nhttps://github.com/nexu-io/openmotion\nhttps://github.com/google-gemini/gemini-api-cli\n完整步驟與驗證：\nhttps://github.com/AllenYen888/aurevia-ai-intelligence-hub/blob/main/daily/2026/11/2026-11-24.md\n\nAurevia 奧瑞維亞AI價值商學院\n#AI工具應用 #美業AI #影音工作流 #開源工具",
+  "counts": {
+    "new": 3,
+    "updated": 0
+  },
+  "publication": "同日已存在另一任務PENDING，這份草稿未提交發布。"
+}
