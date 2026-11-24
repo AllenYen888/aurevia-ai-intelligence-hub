@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-25",
+  "search_cutoff": "2026-11-25T07:03:20+08:00",
+  "items": [
+    {
+      "id": "antigravity-cli-live-step-checklist",
+      "title": "用即時步驟清單追蹤三項內容產物",
+      "tool": "Google Antigravity CLI 1.5.16+",
+      "category": "Agent／文字／流程驗收",
+      "problem": "多步驟工作進行中不易確認目前處理到哪裡。",
+      "summary": "官方11/24更新加入互動式多步驟任務的即時清單；Agent追蹤步驟時顯示進度，全部結束後隱藏。清單不是產物品質證明。",
+      "steps": [
+        "確認Antigravity CLI版本1.5.16或以上；若尚未取得，依官方更新方式處理。",
+        "在測試資料夾啟動互動式agy，要求以虛構教案產出重點、待確認資訊、貼文三個檔案，明列保存位置並追蹤步驟。",
+        "觀察清單後逐一開啟三份檔案，核對缺資料、來源及未證實宣稱；未輸出不能算完成。"
+      ],
+      "audience": "已有Antigravity環境的AI講師、內容顧問及有技術支援的美業團隊",
+      "example": "將虛構美容教案整理成三個重點、缺資料清單與招生草稿；編輯應用建議，未實測。",
+      "cost": "方案、模型用量及免費額度未確認；不作免費承諾。",
+      "limitations": "只適用官方說明的互動式多步驟追蹤情境，不保證每回合顯示。進度介面不增加權限隔離；只用假資料，避免顧客個資及健康資料。",
+      "x": {
+        "author": "Google Antigravity產品開發團隊",
+        "handle": "@antigravity",
+        "url": "https://x.com/antigravity/status/2125032843550028030",
+        "posted_at": "2026-11-24T09:04:45+08:00",
+        "date_basis": "X Snowflake ID換算Asia/Taipei；非原頁顯示日期",
+        "access": "403；原文與影片未能直接讀取"
+      },
+      "official_sources": [
+        {
+          "url": "https://antigravity.google/docs/changelog",
+          "date": "2026-11-24",
+          "section": "Antigravity CLI v1.5.16"
+        }
+      ],
+      "github": null,
+      "github_note": "未確認此功能官方公開原始碼儲存庫；不以同名repo替代。",
+      "verification": "X原頁403；官方更新紀錄已開啟閱讀；未登入、安裝或執行實測。應用步驟為編輯建議。",
+      "change_type": "update",
+      "previous_entry": "antigravity-btw-side-questions",
+      "change_reason": "11/22收錄的是/btw旁支問答；本次新增CLI即時步驟清單，為不同實質功能。",
+      "published_at": "2026-11-24T09:04:45+08:00",
+      "collected_at": "2026-11-25T07:03:20+08:00",
+      "tags": [
+        "Antigravity",
+        "Agent",
+        "內容驗收",
+        "文字工作流"
+      ]
+    }
+  ],
+  "counts": {
+    "new": 0,
+    "updated": 1
+  },
+  "history": {
+    "available_articles": 15,
+    "range": "2026-11-10至2026-11-24",
+    "full_30_days_verified": false,
+    "dedup_keys": [
+      "X原始URL",
+      "GitHub owner/repo",
+      "工具名稱"
+    ],
+    "result": "同工具舊項已讀，依實質新功能列更新；未發現相同X或功能。"
+  },
+  "selection_note": "近48小時優先、7天補查；其他候選未取得足夠原始操作依據或重複既有內容，不湊三項。",
+  "best": "已有環境者先用此清單追蹤三個小產物，再人工驗收；未實測。",
+  "facebook_draft": "【AI說「完成了」，你有看到交付成果嗎？】\n\n2026/11/25 Aurevia AI 工具應用情報。今天只保留一項有官方文件佐證的更新：Google Antigravity CLI 1.5.16加入即時步驟清單，讓多步驟任務顯示進度。它是觀察工作狀態的入口，驗收仍要回到實際檔案。\n\n已使用Antigravity的美容老師或品牌團隊，可以先做一個小測試：準備一份虛構課程介紹，要求AI完成「整理重點、列出待確認資訊、產出貼文草稿」三件事，並追蹤步驟。過程中看清單；結束後逐項打開產物，不只看最後一句回覆。\n\n建議操作三步：\n①確認CLI已更新至1.5.16或以上。\n②在測試資料夾啟動互動式對話，寫明三項產物、保存位置與完成標準。\n③對照輸出檔案驗收：來源是否保留、價格與日期是否待確認、文字是否加入未提供的療效或顧客見證。\n\n美容課程的具體例子，是把一頁教案整理成三個重點、一份缺資料清單及一篇招生草稿。這是我們建議的試法，尚未親自執行，不代表官方展示或成效保證。\n\n注意：官方說明清單在Agent追蹤步驟時顯示，不能保證每次對話都出現；全部步驟結束後會自動隱藏。測試請用假資料，因為看到進度不等於限制了檔案操作權限。方案費用與免費額度本次未確認，先用既有環境驗收即可。\n\n來源查核：X原頁回傳403，未讀到貼文；功能已查官方更新紀錄，未實測。\n原始X：https://x.com/antigravity/status/2125032843550028030\n官方：https://antigravity.google/docs/changelog\n完整操作與GitHub情報入口：https://github.com/AllenYen888/aurevia-ai-intelligence-hub/blob/main/daily/2026/11/2026-11-25.md\n\nAurevia 奧瑞維亞AI價值商學院\n#AI工具應用 #美業AI #工作流驗收"
+}
