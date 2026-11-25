@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-26",
+  "schema_version": 1,
+  "search_cutoff": "2026-11-26T07:02:25+08:00",
+  "search_window": "三則X分享均近48小時；官方規格可能早於分享日期，非全為新發表功能。",
+  "history": {
+    "available_articles": 16,
+    "dates": "2026-11-10至2026-11-25",
+    "full_30_days_verified": false,
+    "dedup_keys": [
+      "X URL",
+      "GitHub owner/repo",
+      "工具名稱"
+    ],
+    "result": "未見相同X或三項應用；Antigravity依同工具新應用列更新。"
+  },
+  "items": [
+    {
+      "id": "claude-code-ship-pr-followup",
+      "title": "讓改稿後的PR繼續處理審查意見",
+      "tool": "Claude Code /ship；Claude Ship",
+      "category": "Agent／網站維護",
+      "problem": "網站修改後，審查意見與失敗檢查仍需反覆追蹤。",
+      "summary": "本機/ship可建立PR、審查並持續處理後續問題；團隊版Claude Ship是另外設定的組織服務。",
+      "steps": [
+        "在可信任的測試儲存庫準備一項小修改，先確認git status與檔案內沒有金鑰。",
+        "確認Claude Code、GitHub CLI與git符合官方版本需求，在本機終端執行/ship。",
+        "檢查PR差異、測試與回覆，再由負責人決定合併；保留分支保護。"
+      ],
+      "audience": "有工程協作者的中小企業、課程網站維護者",
+      "example": "修正課程頁的表單驗證，再追蹤審查與檢查結果；編輯應用建議，未實測。",
+      "cost": "本機指令計入Claude Code用量；組織Claude Ship需Team或Enterprise且另按用量計費；實際金額與免費額度未確認。",
+      "limitations": "/ship可能提交與推送檔案；只在可信任repo使用。指令有平台與版本限制，原生Windows不啟動watch；雲端工作階段無這些本機指令。",
+      "x": {
+        "author": "Claude開發者團隊",
+        "handle": "@ClaudeDevs",
+        "url": "https://x.com/ClaudeDevs/status/2125365668463993091",
+        "posted_at": "2026-11-25T07:07:17+08:00"
+      },
+      "official": [
+        "https://code.claude.com/docs/en/ship-command",
+        "https://code.claude.com/docs/en/claude-ship"
+      ],
+      "github": null,
+      "github_note": "未確認Claude Ship本體官方公開原始碼repo，不以Claude Code相關repo代替。",
+      "change_type": "new",
+      "tags": [
+        "Claude",
+        "PR",
+        "網站維護"
+      ],
+      "collected_at": "2026-11-26T07:02:25+08:00",
+      "verification": "X原頁403，原文及示範影片未讀；官方文件已開啟閱讀；未登入操作或實測。",
+      "date_basis": "X Snowflake ID換算Asia/Taipei，非原頁顯示日期。"
+    },
+    {
+      "id": "antigravity-modern-web-guidance-webmcp-forms",
+      "title": "把既有表單標示為Agent可理解的工具",
+      "tool": "Antigravity／Modern Web Guidance／WebMCP",
+      "category": "網站／Agent介面",
+      "problem": "Agent只靠畫面猜測表單用途，缺少結構化說明。",
+      "summary": "Chrome官方指南說明用表單屬性標示工具名稱與用途；屬實驗性Origin Trial，不能當成所有瀏覽器已普及支援。",
+      "steps": [
+        "在測試專案安裝Modern Web Guidance，先核對目標瀏覽器與Origin Trial資格；決定採用實驗功能後才明確opt in。",
+        "對一般HTML測試表單加入toolname與tooldescription，保留欄位標籤與原本驗證；不加自動提交。",
+        "在支援環境分別測試人工填寫及Agent操作，確認結果與後端驗證一致後才評估上線。"
+      ],
+      "audience": "有網站開發能力的美業品牌、報名平台及AI教學團隊",
+      "example": "以假資料建立課程名額查詢表單原型；不直接開放付款或正式預約。編輯構想，未實測。",
+      "cost": "方案、Agent用量與免費額度未確認；指南授權不代表模型服務免費。",
+      "limitations": "Origin Trial仍可能變動；需明確採用並檢查相容性。Angular Signal Forms有不同整合方式。表單提交及個資仍受原有後端權限與驗證約束。",
+      "x": {
+        "author": "Google Antigravity產品團隊",
+        "handle": "@antigravity",
+        "url": "https://x.com/antigravity/status/2125378937156944146",
+        "posted_at": "2026-11-25T08:00:00+08:00"
+      },
+      "official": [
+        "https://developer.chrome.com/docs/modern-web-guidance/guides/webmcp/agentic-forms",
+        "https://antigravity.google/docs/build-with-google"
+      ],
+      "github": "https://github.com/GoogleChrome/modern-web-guidance",
+      "license": "Apache-2.0（此指南repo；不涵蓋Antigravity服務）。",
+      "change_type": "update",
+      "change_reason": "同Antigravity工具新增WebMCP表單應用；不同於/btw與即時清單。WebMCP本身不是今天新推出。",
+      "tags": [
+        "WebMCP",
+        "表單",
+        "實驗功能"
+      ],
+      "collected_at": "2026-11-26T07:02:25+08:00",
+      "verification": "X原頁403，原文及示範影片未讀；官方文件已開啟閱讀；未登入操作或實測。",
+      "date_basis": "X Snowflake ID換算Asia/Taipei，非原頁顯示日期。"
+    },
+    {
+      "id": "mcp-tasks-durable-job-tracking",
+      "title": "長任務保留ID，斷線後繼續查結果",
+      "tool": "MCP Tasks extension",
+      "category": "自動化／長任務",
+      "problem": "批次作業逾時或斷線後，容易重送造成重複工作。",
+      "summary": "官方Tasks擴充以taskId承接長任務，讓客戶端查進度與結果；需兩端支援，不能把一般MCP服務都視為已具備。",
+      "steps": [
+        "由工程人員核對客戶端與伺服器是否支援Tasks擴充，以非敏感測試資料建立小批次作業。",
+        "取得taskId後保存，依伺服器建議間隔用tasks/get查詢，不重送原始工作。",
+        "遇input_required才提供所需輸入；completed後核對result，failed則保留error，並測試重連與TTL。"
+      ],
+      "audience": "自動化整合商、AI顧問及企業工程團隊",
+      "example": "批次整理十份虛構課程摘要，重連後沿用ID領取結果；此為架構建議，未部署實測。",
+      "cost": "規格與參考repo公開；執行服務、模型費用及免費額度未確認。",
+      "limitations": "取消採合作機制，不保證工作立刻停止；要處理TTL、結果存取權限及個資。此為近期討論的既有規格，非11/24新發布規格。",
+      "x": {
+        "author": "David Soria Parra",
+        "handle": "@dsp_",
+        "url": "https://x.com/dsp_/status/2125294863558324380",
+        "posted_at": "2026-11-25T02:25:56+08:00"
+      },
+      "official": [
+        "https://modelcontextprotocol.io/extensions/tasks/overview"
+      ],
+      "github": "https://github.com/modelcontextprotocol/ext-tasks",
+      "license": "Apache-2.0。",
+      "change_type": "new",
+      "tags": [
+        "MCP",
+        "長任務",
+        "去重",
+        "自動化"
+      ],
+      "collected_at": "2026-11-26T07:02:25+08:00",
+      "verification": "X原頁403，原文及示範影片未讀；官方文件已開啟閱讀；未登入操作或實測。",
+      "date_basis": "X Snowflake ID換算Asia/Taipei，非原頁顯示日期。"
+    }
+  ],
+  "counts": {
+    "new": 2,
+    "updated": 1
+  },
+  "best": {
+    "id": "claude-code-ship-pr-followup",
+    "reason": "已有Claude Code與GitHub環境的工程協作者，可先用單一小PR驗收；另兩項較偏原型或架構整合。未實測。"
+  },
+  "facebook_draft": "【AI接手工作後，誰負責確認真的做完？】\n\n2026/11/26 Aurevia AI 工具應用情報。今天整理三個工程團隊可研究的方向：PR後續處理、表單介面、長任務追蹤。三則X原頁皆回傳403，以下功能以已讀官方文件佐證，全部未實測；應用例是我們的建議。\n\n① 網站改完，還有審查意見：Claude Code的/ship能接續處理PR回饋與失敗檢查。可先試一個課程頁驗證修正，確認檔案沒有金鑰，再看PR差異與測試。它可能提交、推送檔案，不能當成單純預覽；組織版Claude Ship另有方案與用量費。\n\n② 想讓Agent理解表單：Modern Web Guidance提供WebMCP表單指南，用名稱與用途描述既有表單。但這仍是實驗性Origin Trial，應先核對相容性，在假資料環境測試，不直接開放正式預約或付款。\n\n③ 批次工作斷線後，不要立刻重送：MCP Tasks提供保存taskId、再查狀態與結果的方式。適合請工程團隊研究摘要批次處理等流程；必須兩端支援，也要處理有效期限與失敗狀態，不能假設每個MCP工具都已具備。\n\n已有工程協作者，可先選一個測試頁或十份虛構教案，寫下「輸入、產物、驗收」三件事。字幕、價格、日期、顧客資料與健康宣稱，都應由人核對；工具進度不等於成效證明。\n\n實際價格與免費額度本次未完整確認，導入前先查帳號方案。操作步驟、原始來源及GitHub資源已放在情報庫，供團隊查找。\n\nX來源：\nhttps://x.com/ClaudeDevs/status/2125365668463993091\nhttps://x.com/antigravity/status/2125378937156944146\nhttps://x.com/dsp_/status/2125294863558324380\nGitHub資源：\nhttps://github.com/GoogleChrome/modern-web-guidance\nhttps://github.com/modelcontextprotocol/ext-tasks\n完整情報：\nhttps://github.com/AllenYen888/aurevia-ai-intelligence-hub/blob/main/daily/2026/11/2026-11-26.md\n\nAurevia 奧瑞維亞AI價值商學院\n#AI工具應用 #美業AI #工作流驗收"
+}
