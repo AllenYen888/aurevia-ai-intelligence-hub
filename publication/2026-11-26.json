@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-26",
+  "timezone": "Asia/Taipei",
+  "article_path": "daily/2026/11/2026-11-26.md",
+  "data_path": "data/2026-11-26.json",
+  "github_readback_verified": true,
+  "index_readback_verified": true,
+  "destination": {
+    "brand_id": 7530741,
+    "brand_name": "演鏡哥 美業文案創客",
+    "facebook_page_id": "105618068881145"
+  },
+  "metricool": {
+    "id": 442439468,
+    "uuid": "3462111739329659631",
+    "status": "PENDING",
+    "scheduled_at": "2026-11-26T07:06:00+08:00",
+    "requested_at": "2026-11-26T07:06:01+08:00",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7530741&openWithPostUuid=3462111739329659631",
+    "publicUrl": null
+  },
+  "duplicate_check": {
+    "article_and_publication_initially_absent": true,
+    "scheduled_posts_before_submission": 0,
+    "analytics_rows_before_submission": 0
+  },
+  "note": "提交一次並回查PENDING；尚無PUBLISHED及實際publicUrl，不宣稱已發布。"
+}
