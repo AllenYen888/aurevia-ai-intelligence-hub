@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-28",
+  "timezone": "Asia/Taipei",
+  "article_path": "daily/2026/11/2026-11-28.md",
+  "article_url": "https://github.com/AllenYen888/aurevia-ai-intelligence-hub/blob/main/daily/2026/11/2026-11-28.md",
+  "github_readback": true,
+  "json_readback": true,
+  "index_readback": true,
+  "metricool": {
+    "brand_id": "7530741",
+    "brand_label": "演鏡哥 美業文案創客",
+    "facebook_page_id": "105618068881145",
+    "id": "444960166",
+    "uuid": "1897587318381035674",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7530741&openWithPostUuid=1897587318381035674",
+    "publicationDate": {
+      "dateTime": "2026-11-28T07:01:00",
+      "timezone": "Asia/Taipei"
+    },
+    "status": "PENDING",
+    "publicUrl": null
+  },
+  "verification": "當日GitHub文章及發布紀錄原不存在；Metricool當日待發布及分析貼文均空。提交後以getScheduledPosts回查同一id/uuid，不重建。PENDING僅表示已排程，尚未確認實際FB公開URL。",
+  "counts": {
+    "new": 0,
+    "updated": 1
+  },
+  "search_cutoff": "2026-11-28T06:58:40+08:00"
+}
