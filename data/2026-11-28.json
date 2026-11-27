@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-28",
+  "timezone": "Asia/Taipei",
+  "search_cutoff": "2026-11-28T06:58:40+08:00",
+  "search_window": {
+    "preferred_hours": 48,
+    "fallback_days": 7,
+    "selected_in_preferred_window": 1
+  },
+  "dedup": {
+    "history_available_count": 18,
+    "history_paths": [
+      "daily/2026/11/2026-11-24.md",
+      "daily/2026/11/2026-11-23.md",
+      "daily/2026/11/2026-11-22.md",
+      "daily/2026/11/2026-11-21.md",
+      "daily/2026/11/2026-11-20.md",
+      "daily/2026/11/2026-11-19.md",
+      "daily/2026/11/2026-11-18.md",
+      "daily/2026/11/2026-11-17.md",
+      "daily/2026/11/2026-11-16.md",
+      "daily/2026/11/2026-11-15.md",
+      "daily/2026/11/2026-11-14.md",
+      "daily/2026/11/2026-11-13.md",
+      "daily/2026/11/2026-11-12.md",
+      "daily/2026/11/2026-11-11.md",
+      "daily/2026/11/2026-11-10.md",
+      "daily/2026/11/2026-11-25.md",
+      "daily/2026/11/2026-11-26.md",
+      "daily/2026/11/2026-11-27.md"
+    ],
+    "comparison_keys": [
+      "X URL",
+      "GitHub owner/repo",
+      "tool name"
+    ],
+    "coverage_note": "已讀索引列出的可取得18篇文章，未確認最近30天未列入索引的其他紀錄。"
+  },
+  "counts": {
+    "new": 0,
+    "updated": 1
+  },
+  "selection_note": "其他候選未取得完整可核對X原始網址，不納入；不湊三項。",
+  "items": [
+    {
+      "id": "hermes-obsidian-knowledge-base",
+      "date": "2026-11-28",
+      "change_type": "update",
+      "updated_tool": "Hermes Agent",
+      "previous_reference": "daily/2026/11/2026-11-21.md",
+      "change_reason": "新增Obsidian本機筆記庫操作應用；不同於已收錄的Teams雲端連接",
+      "tags": [
+        "Agent",
+        "知識管理",
+        "Obsidian",
+        "美業教學",
+        "文字"
+      ],
+      "title": "Hermes × Obsidian：把教學筆記做成可追溯問答",
+      "tool_name": "Hermes Agent／Obsidian 官方技能",
+      "application_category": "Agent／知識管理／文字教學",
+      "problem": "教學筆記分散，回答常見問題時難以回到原始依據。",
+      "summary": "官方Obsidian技能可讓相容Agent處理筆記及Markdown等格式；Hermes Marketplace與Obsidian官方儲存庫均列出Hermes安裝入口。以獨立筆記庫試做引用來源的課前問答，是編者提出的應用設計，並非已驗證成果。",
+      "steps": [
+        "先備份並建立獨立測試vault，放入三篇自行撰寫、不含個資的教學筆記；更新Obsidian安裝程式至官方CLI要求版本（1.12.7+），在Settings → General開啟Command line interface，保持應用程式運行。",
+        "在已安裝、已設定模型的Hermes環境執行 hermes plugins install obsidian；指定測試vault，先要求搜尋與讀取，不修改或刪除原筆記。",
+        "提示：『根據測試筆記提出五題課前問答，每題列引用檔名及待確認處，先交草稿；我確認後才寫入新的FAQ筆記。』逐項核對引用和內容，再人工允許新增檔案。"
+      ],
+      "audience": "已有Obsidian／Hermes操作能力的美業老師、AI講師、中小企業知識管理人員。",
+      "example": "將三篇自有『課程準備與清潔流程』筆記整理成五題課前問答，每題保留來源檔名；屬編者應用構想，未實測，不含療效或業績保證。",
+      "cost": "模型費用、Hermes方案及免費額度未確認；Obsidian Headless的Sync／Publish需相應訂閱，非本練習必要條件。",
+      "limitations_privacy": "CLI需可執行本機命令的環境及Obsidian桌面程式；技能可讀寫、移動與刪除筆記，先備份並隔離測試。技能本身不含MCP伺服器或背景程序。引用筆記送入對話後由所選AI模型處理，本機儲存不等於內容全程不出機；勿放客戶個資或健康紀錄。",
+      "x_source": {
+        "author": "Nous Research",
+        "handle": "@NousResearch",
+        "url": "https://x.com/NousResearch/status/2125989568721637578",
+        "post_date_taipei": "2026-11-27",
+        "post_time_taipei": "2026-11-27T00:26:26+08:00",
+        "date_basis": "X Snowflake ID獨立換算；聚合頁顯示Nov26，時區未註明，不直接當台灣日期。",
+        "access_status": "已實際開啟，403；未讀取X原文或示範影片。",
+        "discovery_url": "https://www.harness-hub.org/x"
+      },
+      "official_sources": [
+        "https://hermes-agent.nousresearch.com/marketplace/obsidian",
+        "https://github.com/obsidianmd/obsidian-skills",
+        "https://help.obsidian.md/cli"
+      ],
+      "github_url": "https://github.com/obsidianmd/obsidian-skills",
+      "github_owner_repo": "obsidianmd/obsidian-skills",
+      "github_verification": "Nous官方Marketplace直接連到此庫；該庫README亦列Hermes官方安裝指令，已核對，不以同名搜尋結果認定。",
+      "license": {
+        "name": "MIT",
+        "scope": "obsidianmd/obsidian-skills技能專案；不外推至Obsidian桌面程式、模型、雲端或商業服務",
+        "source": "https://github.com/obsidianmd/obsidian-skills/blob/main/LICENSE"
+      },
+      "verification": {
+        "author_demonstration": "X原頁及影片不可讀，不聲稱已確認作者展示結果。",
+        "official_confirmation": "已讀官方Marketplace、作者README、CLI文件與LICENSE，確認功能入口及條件。",
+        "editor_inference": "五題課前問答工作流為編者設計。",
+        "hands_on_test": false,
+        "status": "官方文件已查核；X原頁403；未實測"
+      },
+      "post_date": "2026-11-27",
+      "collected_date": "2026-11-28",
+      "collected_at": "2026-11-28T06:58:40+08:00"
+    }
+  ],
+  "facebook_draft": "把老師的筆記，變成下一次教學找得到的資料庫\n\nAurevia AI 工具應用情報庫｜2026-11-28\n今天只收錄一項查得到官方操作文件的新應用：Hermes Agent 搭配 Obsidian。X 原頁目前無法讀取，功能已交叉核對官方文件；以下是應用建議，尚未親自安裝實測。\n\n美業老師常把課程重點、學員提問與改稿心得分散存放。這個組合值得研究的地方，是讓 Agent 協助搜尋筆記、整理內容，再連回原始資料。它不是接上去就能自動產生可靠答案，仍需要人核對。\n\n可以先做一個小練習：\n① 建立獨立測試筆記庫，放入三篇自行撰寫、不含個資的教學筆記。\n② 在 Obsidian 開啟命令列介面；已安裝 Hermes 者，依官方指令 hermes plugins install obsidian 加入工具。\n③ 請 Agent「先搜尋、列出引用筆記與待確認處，再提出五題課前問答」，先看草稿，再決定是否寫入新筆記。\n\n驗收時逐題打開引用檔案：真的有這段內容嗎？是否把經驗寫成保證？不確定的地方有沒有留下來？先做好這一份小成果，再擴大使用。\n\n特別注意：筆記放在本機，不代表送進模型的內容也留在本機。先備份、限制測試範圍；模型費用與免費額度未確認，Sync／Publish 另需訂閱。此技能專案採 MIT，不代表所有服務免費。\n\n完整步驟與來源：\nhttps://github.com/AllenYen888/aurevia-ai-intelligence-hub/blob/main/daily/2026/11/2026-11-28.md\n原始分享：https://x.com/NousResearch/status/2125989568721637578\n官方資源：https://github.com/obsidianmd/obsidian-skills\n\nAurevia 奧瑞維亞AI價值商學院\n#AI工具應用 #美業教學 #知識管理 #Obsidian #HermesAgent"
+}
